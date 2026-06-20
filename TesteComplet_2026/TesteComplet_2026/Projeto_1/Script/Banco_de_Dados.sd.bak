@@ -1,0 +1,43 @@
+﻿//procedure ConectarFirebird;
+//var
+//  Conexao: OleVariant;
+//begin
+//  Conexao := Sys.OleObject('ADODB.Connection');
+//
+//  Conexao.ConnectionString :=
+//    'Provider=MSDASQL.1;' +
+//    'DSN=ConectarFirebird' +
+//    'UID=SYSDBA;' +
+//    'PWD=c@rt1lh@;';
+//
+//  Conexao.Open;
+//
+//  Log.Message('Conectado com sucesso ao Firebird');
+//
+//  Conexao.Close;
+//end;
+
+procedure ConectarFirebird;
+var
+  Conexao: OleVariant;
+begin
+  try
+    Conexao := Sys.OleObject('ADODB.Connection');
+    Conexao.ConnectionString :=
+      'Provider=MSDASQL.1;' +
+      'DSN=ConectarFirebird' +        // nome exato do DSN
+      'UID=SYSDBA;' +
+      'PWD=c@rt1lh@;';                 // sua senha real
+    Conexao.ConnectionTimeout := 30;
+    Conexao.Open;
+
+    if Conexao.State = 1 then
+      Log.Message('Conectado com sucesso ao Firebird!')
+    else
+      Log.Error('Falha ao conectar!');
+
+    Conexao.Close;
+  except
+    Log.Error('Erro: ' + ExceptionMessage);
+  end;
+end;

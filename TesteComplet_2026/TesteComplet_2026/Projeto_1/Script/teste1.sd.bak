@@ -1,0 +1,25 @@
+﻿//Somar valores
+uses 
+  Paginas;
+
+procedure CT001_Somar_10_20;
+begin
+  Paginas.comValor('10');
+  Paginas.comSoma;
+  Paginas.comValor('20');
+  Paginas.comIgual;
+end;
+
+//
+//uses Paginas;
+//var somar: integer;
+//var valor1: integer;
+//var valor2; integer;
+//
+//procedure somar();
+//begin
+//  valor1 := '1';
+//  valor2 := '2';
+//  Paginas.comSoma;
+//end;
+//

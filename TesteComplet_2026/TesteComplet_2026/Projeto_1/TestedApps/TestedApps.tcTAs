@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" version="1400" key="{D29F330A-3987-416D-8B9E-F59C10566CF9}" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}">
+	<config nodeName="TestedApps" />
+	<testData />
+	<data />
+	<children>
+		<child key="{E173D279-AC1E-4C1B-AEB1-7D4AE7D69BFB}">
+			<config nodeName="Calculadora" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="" workFolder="C:\Users\student\Downloads\calculadora_exemplo para Automatizar" userName="" password="" domain="" />
+					<param name="Profile" parameters="" workFolder="C:\Users\student\Downloads\calculadora_exemplo para Automatizar" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="" workFolder="C:\Users\student\Downloads\calculadora_exemplo para Automatizar" />
+					<param name="Simple" fileName="Calculadora.exe" filePath="C:\Users\student\Downloads\calculadora_exemplo para Automatizar\" parameters="" workFolder="C:\Users\student\Downloads\calculadora_exemplo para Automatizar" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+		<child key="{923E22E2-15C1-4531-A080-A914584B125A}">
+			<config nodeName="Power_ERP_Gestao" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="" workFolder="C:\Power_ERP\Retaguarda" userName="" password="" domain="" />
+					<param name="Profile" parameters="" workFolder="C:\Power_ERP\Retaguarda" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="" workFolder="C:\Power_ERP\Retaguarda" />
+					<param name="Simple" fileName="Power_ERP_Gestao.exe" filePath="C:\Power_ERP\Retaguarda\" parameters="" workFolder="C:\Power_ERP\Retaguarda" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+</Root>

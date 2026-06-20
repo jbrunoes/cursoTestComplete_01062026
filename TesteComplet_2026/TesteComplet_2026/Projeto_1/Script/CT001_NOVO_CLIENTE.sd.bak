@@ -1,0 +1,27 @@
+﻿//Cadastrar um novo cliente
+
+uses 
+  cadClientes,
+  validacaoERP,
+  paginas,
+  usarExcel;
+  
+procedure cadCliExcel;
+
+var
+  planilha: OleVariant;
+  validartela: string;
+  
+begin
+  planilha := DDT.ExcelDriver(
+  'C:\Users\student\Documents\TestComplete 15 Projects\TesteComplet_2026\DDT\CT001_CADASTRO_CLIENTE.xlsx',
+  'novoCLiente');
+  cadClientes.novoCliente;
+  
+  //validar abertura da tela
+  validartela := validacaoERP.validarTelaAbertaCliente;
+  
+  cadClientes.camposCliente(planilha);
+
+  
+end;

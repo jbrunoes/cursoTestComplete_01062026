@@ -1,0 +1,18 @@
+﻿//Lib para utilizacao do excelDrive
+
+function abrirPlanilha(caminho: string ,worksheet: string):OleVariant;
+begin
+  result := DDT.ExcelDriver(caminho,worksheet);
+end;
+
+function fecharPlanilha(caminho: string ,worksheet: string):OleVariant;
+begin
+  result := DDT.CloseDriver(caminho,worksheet);
+end;
+
+function obterResultado;
+var resultado: string;
+begin
+  resultado := Sys.Process('Calculadora').VCLObject('FrmCalc').VCLObject('edt').Text;
+  result := resultado;
+end; 

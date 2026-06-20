@@ -1,0 +1,36 @@
+﻿//validacao de resultados
+function idValor();
+var resultado: string;
+begin
+  resultado := Sys.Process('Calculadora').VCLObject('FrmCalc').VCLObject('edt').Text;
+  result := resultado;
+end;
+
+procedure validarValor(valor: string);
+var validar: string;
+begin
+  validar := idValor();
+  if validar = valor then
+  begin
+    log.Checkpoint('Valor Correto!');
+  end
+  else
+  begin
+    Log.Error('Valor diferente do esperado!');
+  end;
+end;
+
+function abrirPlanilha(caminho: string ,worksheet: string):OleVariant;
+begin
+  result := DDT.ExcelDriver(caminho,worksheet);
+end;
+
+function fecharPlanilha(caminho: string ,worksheet: string):OleVariant;
+begin
+  result := DDT.CloseDriver(caminho,worksheet);
+end;
+
+function obterResultado;
+begin
+Result := Aliases.Calculadora.txtResultado.wText;
+end; 

@@ -1,0 +1,20 @@
+﻿function validarTelaClient();
+var resultado: string;
+begin
+  resultado := Sys.Process('Power_ERP_Gestao').VCLObject('frmPrincipal').Window('MDIClient', '', 1).VCLObject('frmcliente_menu').Visible;
+  result := resultado;
+end;
+
+procedure validarTelaAbertaCliente();
+var validarTela: string;
+begin
+  validarTela := validarTelaClient();
+  if validarTela then
+  begin
+    log.Checkpoint('Tela de Cadastro de Cliente foi aberta com sucesso!');
+  end
+  else
+  begin
+    Log.Error('Tela não foi aberta!');
+  end;
+end;

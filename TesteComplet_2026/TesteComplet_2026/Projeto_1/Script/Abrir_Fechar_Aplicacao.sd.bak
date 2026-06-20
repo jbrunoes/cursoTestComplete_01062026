@@ -1,0 +1,13 @@
+﻿//Lib Usada para abrir e fechar aplicacao
+
+
+procedure abrirCalculadora();
+begin
+   TestedApps.Calculadora.Run();
+   
+end;
+
+procedure fecharCalculadora();
+begin
+  Aliases.Calculadora.Close();
+end;

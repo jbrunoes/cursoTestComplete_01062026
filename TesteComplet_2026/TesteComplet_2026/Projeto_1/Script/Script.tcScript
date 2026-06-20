@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="Lib">
+			<child name="Paginas" key="{9147F9E0-E10D-4944-BDFB-C9D54E651F1B}" path="Paginas.js" />
+			<child name="Validacao" key="{0267CFD7-5D0D-4A01-B271-59A66B3EC850}" path="Validacao.js" />
+			<child name="Aplicacao" key="{EC18CD4D-6082-4054-ABC9-830E612FD11A}" path="Aplicacao.js" />
+			<child name="usarExcel" key="{A4A705DE-F7C2-4D4B-80EF-E5411644310F}" path="usarExcel.js" />
+			<child name="telaInicial" key="{319E56FC-6C3E-4AFE-854D-2537507E831B}" path="telaInicial.js" />
+			<child name="cadClientes" key="{DBEC2C2D-609A-4A07-929E-32A21A4985F4}" path="cadClientes.js" />
+			<child name="AplicacaoERP" key="{4BD53405-D2D0-40F8-9242-A77C65CBB75C}" path="AplicacaoERP.js" />
+			<child name="validacaoERP" key="{62523DB9-903E-415C-929A-47D016FCC331}" path="validacaoERP.js" />
+			<child name="Banco_de_Dados" key="{7D4DBCE9-30AE-406B-A55D-76A2E54C6C85}" path="Banco_de_Dados.js" />
+		</folder>
+		<folder name="Cenarios">
+			<child name="CT001_Som_10_20" key="{BEE8F2EB-FBDB-4DBB-B1C9-0C6CF62E1416}" path="CT001_Som_10_20.js" />
+			<child name="CT002_Div_12_2" key="{F1576901-6475-4E41-9C67-CDB98D16C762}" path="CT002_Div_12_2.js" />
+			<child name="CT003_Sub_10_2" key="{1CC2033B-ABC2-4E37-BD33-33D3FB11350A}" path="CT003_Sub_10_2.js" />
+			<child name="CT004_Mul_2_10" key="{5AE625F4-2D68-4A92-8F2E-791FAEB97A41}" path="CT004_Mul_2_10.js" />
+			<child name="CT004_PLANILHA" key="{11AD146C-F4F9-4E3C-AD0E-0A88C7981E59}" path="CT004_PLANILHA.js" />
+			<child name="TESTE" key="{AE506B55-2D9B-422F-8B50-DA7388322B04}" path="TESTE.js" />
+		</folder>
+		<folder name="CasosTesteERP">
+			<child name="CT001_NOVO_CLIENTE" key="{388D62EA-C31F-4611-A7E8-9BCB22EE17C2}" path="CT001_NOVO_CLIENTE.js" />
+		</folder>
+		<child name="Unit1" key="{EC643547-7ED8-4C0C-A5E2-93712DDDB207}" path="Unit1.js" />
+	</children>
+</Root>
