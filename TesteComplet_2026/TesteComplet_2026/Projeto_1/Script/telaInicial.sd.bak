@@ -1,4 +1,0 @@
-﻿procedure menuCliente();
-begin
-  Sys.Process('Power_ERP_Gestao').VCLObject('frmPrincipal').VCLObject('AdvSmoothPanel15').VCLObject('AdvSmoothButton31').Click();
-end;

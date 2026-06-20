@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{6D817319-443F-433D-AF87-BE1E0A67D742}">
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.20" key="{6D817319-443F-433D-AF87-BE1E0A67D742}">
 	<children>
 		<child name="Projeto_1" key="{87EAA545-A7EE-423C-9F9F-FA94F4620750}" path="Projeto_1\Projeto_1.mds" />
 	</children>

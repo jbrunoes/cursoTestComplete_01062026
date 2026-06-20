@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{A76EE67A-20C1-4A50-B7D3-4DE753E74BD7}">
+	<children>
+		<child name="PCSIS316" key="{93D09C19-72C4-42B0-9A99-D8E8AE845239}" path="PCSIS535\PCSIS316.mds" />
+		<child name="PCSIS300" key="{368DAE32-BBEA-4568-80B7-720985C689D8}" path="PCSIS300_2\PCSIS300.mds" />
+		<child name="PCSIS336" key="{30AC47B2-2BF1-41F7-88D2-0840B208CAEC}" path="PCSIS336\PCSIS336.mds" />
+		<child name="Homologacao" key="{AF813826-F4E4-43D9-82B6-1C06F575EA3A}" path="Homologacao\Homologacao.mds" />
+	</children>
+	<testItems key="{9DB5C31B-1A1F-43B5-BAB9-08ED129CECC6}">
+		<children>
+			<testItem key="{93D09C19-72C4-42B0-9A99-D8E8AE845239}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{368DAE32-BBEA-4568-80B7-720985C689D8}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{30AC47B2-2BF1-41F7-88D2-0840B208CAEC}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{AF813826-F4E4-43D9-82B6-1C06F575EA3A}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{349B3D07-8C8D-4BF3-8A10-FB091D927A82}" />
+	<analysis key="{9E122F05-EAC5-4753-8598-281336E25661}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+</Root>

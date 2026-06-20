@@ -1,0 +1,1643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" version="14.0">
+	<children>
+		<folder name="Advanced" moniker="{69583268-92F3-49FA-B573-C831F5ABC27B}">
+			<child name="Script" key="{4D43A208-0FA1-4D0A-B188-C3968AEA8D9E}" type="Script" typeId="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" pluginName="Script" path="Script\Script.tcScript" />
+			<child name="TestedApps" key="{D221B9E6-2D30-4FF7-869D-D34028FFF198}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" pluginName="" path="TestedApps\TestedApps.tcTAs" />
+		</folder>
+	</children>
+	<config language="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" />
+	<testItems key="{B2B61297-F402-43E3-A228-A74A953FE771}" version="14">
+		<children>
+			<testItem name="Alterar Pedido de Venda - 336" key="{3225776D-E78C-4754-B09C-881E2EA9EC0C}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="Abrir Winthor" key="{0450525E-0141-492F-A0C3-CAC8460DE37B}" group="False" parallel="False" enabled="True" testMoniker="{674F9A6E-04B1-4A64-B083-CB4A3C0B5A03}AbrirWinthor" count="1" timeout="0" stopOnError="1" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters>
+							<param0 name="psLogin" type="3" localVarName="" varType="8" value="PCADMIN" />
+							<param1 name="psSenha" type="3" localVarName="" varType="8" value="1" />
+							<param2 name="psLoja" type="3" localVarName="" varType="8" value="autoteste2" />
+							<param3 name="psEmpresa" type="3" localVarName="" varType="8" value="autoteste2" />
+						</testParameters>
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+					<testItem name="336" key="{C76AF28C-A13B-4442-A68A-55FE109CD400}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children>
+							<testItem name="Mov Estoque Gerencial" key="{B08D627E-3E45-416F-A8D8-EFA6B8368EA1}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children>
+									<testItem name="Mov Estoque Gerencial - QT Bloqueada - 336 - Alterar Pedido Telemarketing TV10 - Duplo Clique" key="{B10B4476-7CAD-4835-94CD-C5CE8EC4C9E9}" group="False" parallel="False" enabled="True" testMoniker="{F9D3F530-1BB6-4FE6-AE44-8EF2C95F50E8}DDVENDAS_T1005" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - QT Bloqueada - 336 - Alterar Pedido Telemarketing TV1 - Duplo clique" key="{D3FE11D2-1D61-43DE-8A90-A8F4A70752B4}" group="False" parallel="False" enabled="True" testMoniker="{BCF3B4B7-D453-4C87-96A5-229533B5C473}DDVENDAS_T1006" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - QT Liberada - 336 - Alterar Pedido Telemarketing TV5 - Duplo Clique" key="{A477C5BF-0FF4-41F6-9DCC-CCD9E4829962}" group="False" parallel="False" enabled="True" testMoniker="{21800EF8-E97B-4F82-AE37-8A3EF6BD3DDD}DDVENDAS_T1018" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - QT Liberada - 336 - Alterar Pedido Telemarketing TV20 - Duplo Clique - Gerar Falta" key="{8AE90FE2-01F3-4635-AFBA-B4A38313E21F}" group="False" parallel="False" enabled="True" testMoniker="{347C502E-D3E3-4053-952A-E4E583CFB817}DDVENDAS_T102" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - QT Disponível dois pedidos mesmo produto - Não aceita venda sem estoque, Gerar novo pedido itens sem estoque - 336 - Alterar Pedido Telemarketing TV1" key="{B171692F-10BA-4C50-9312-071DA70EE4F6}" group="False" parallel="False" enabled="True" testMoniker="{DFBB0EDB-BEDC-4C0C-9557-F11AD5B95C57}DDVENDAS_T1083" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque gerencial - QT Peça - Produtos frios e unidade peça - 336 - Alterar pedido Telemarketing TV1" key="{1E827495-DEB6-49DB-94C2-50362E5D6A1E}" group="False" parallel="False" enabled="True" testMoniker="{590A79F7-FFEF-43B2-934E-40282C0A199E}DDVENDAS_T1086" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - QT Liberada - 336 - Alterar Pedido Telemarketing TV11 - Liberar Todos" key="{87A74089-005F-4EF3-94BF-FF565E573A71}" group="False" parallel="False" enabled="True" testMoniker="{4523D0E1-959F-4697-8026-D21E620C1B23}DDVENDAS_T1097" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - QT Liberada - 336 - Alterar Pedido Telemarketing TV9 - Duplo Clique - Gerar Falta" key="{DF8680D3-3021-4518-ADB6-799A21D5F0F1}" group="False" parallel="False" enabled="True" testMoniker="{9BDECCAF-F94B-4F22-8815-2880A8A7DD5A}DDVENDAS_T1106" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - QT Liberada - 336 - Alterar Pedido Telemarketing TV11 - Duplo Clique" key="{0839754E-BA32-4AAD-A6A0-8C53D1A486D8}" group="False" parallel="False" enabled="True" testMoniker="{D1277F1E-77A2-43B9-9926-B0F13AD5941A}DDVENDAS_T1142" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - QT Liberada - 336 - Alterar Pedido Telemarketing TV13 - Duplo Clique" key="{7C772F32-6C70-4654-886F-16AD13F6EDEB}" group="False" parallel="False" enabled="True" testMoniker="{7C4C3762-5169-4D84-86F4-10E8B2802661}DDVENDAS_T134" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - QT Liberada - 336 - Alterar Pedido Telemarketing TV13 - Duplo Clique" key="{FC994533-7DFD-4E10-9AEC-C0C42D54E9A6}" group="False" parallel="False" enabled="True" testMoniker="{D08B8B88-DF43-44A6-91A5-5FE275953158}DDVENDAS_T159" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - QT Disponível dois pedidos mesmo produto - Não aceita venda sem estoque, sem gerar falta posição &apos;P&apos; - 336 - Alterar Pedido Telemarketing TV1" key="{09211D50-EAA8-42A1-94F9-ECE5BDB2EB96}" group="False" parallel="False" enabled="True" testMoniker="{4D8173EE-DC7B-4931-9C4A-871FD2ECBDDA}DDVENDAS_T172" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - QT Disponível dois pedidos mesmo produto - Não aceita venda sem estoque, sempre gerar falta - 336 - Alterar Pedido Telemarketing TV1" key="{E9E94456-D8E6-4DDE-89E3-40636A8EEDE4}" group="False" parallel="False" enabled="True" testMoniker="{1704B315-2A7A-4034-A0B8-F00D6521650E}DDVENDAS_T24" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - Alterar posição de pedido bloqueado sem estoque disponível&#32;&#32;- 336 - Alterar Pedido Telemarketing TV1" key="{53871019-7D9C-4C05-A0E0-18066557207C}" group="False" parallel="False" enabled="True" testMoniker="{AA962B47-04B0-42E7-8E23-086BED474744}DDVENDAS_T241" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - QT Bloqueada - 336 - Alterar Pedido Telemarketing TV9 - Alterar Cobrança" key="{AC68C5D2-6413-4A17-B410-56C7DC35B4B0}" group="False" parallel="False" enabled="True" testMoniker="{F0BE3AA0-948B-4774-8173-7AA17CA8F728}DDVENDAS_T257" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - QT Bloqueada - 336 - Alterar Pedido Telemarketing TV13 - Duplo Clique" key="{A87894AD-C131-40D6-86F4-77047C875F54}" group="False" parallel="False" enabled="True" testMoniker="{BB503D5E-0890-4CF9-B482-6143AAF3A8C2}DDVENDAS_T258" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - QT Liberada - 336 - Alterar Pedido Telemarketing TV13 - Liberar Todos" key="{00D0E044-47EC-4277-A871-67C2096726BD}" group="False" parallel="False" enabled="True" testMoniker="{8E014008-713C-40C0-8EA7-F92D56CF7C5F}DDVENDAS_T274" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - QT Bloqueada - 336 - Alterar Pedido Telemarketing TV5 - Duplo clique" key="{1F32776C-DD9E-43DB-902A-7D7208659DA9}" group="False" parallel="False" enabled="True" testMoniker="{DB5F08A5-5033-4085-BB49-8C1C86F02958}DDVENDAS_T275" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - QT Liberada - 336 - Alterar Pedido Telemarketing TV7 - Duplo Clique" key="{4439AE64-3B80-4379-B7C3-A49FC08A5447}" group="False" parallel="False" enabled="True" testMoniker="{B4FE69D5-D88D-4406-BEB7-A20635603303}DDVENDAS_T279" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - QT Liberada - 336 - Alterar Pedido Telemarketing TV10 - Duplo Clique" key="{3455E536-E76C-4CA0-A750-FD6934C0ADA4}" group="False" parallel="False" enabled="True" testMoniker="{87E63DC2-4CE4-469B-8434-0460E28D0D7D}DDVENDAS_T283" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - QT Disponível dois pedidos mesmo produto - 336 - Alterar Pedido Telemarketing TV1" key="{7F5F7ED7-A1EA-418E-B6AF-C133BAF883F5}" group="False" parallel="False" enabled="True" testMoniker="{D2814FDE-9FCF-433A-A9B1-17DF6875D116}DDVENDAS_T284" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - QT Liberada - 336 - Alterar Pedido Telemarketing TV20 - Duplo Clique" key="{3E727D88-7D17-47EB-AD76-216848B89096}" group="False" parallel="False" enabled="True" testMoniker="{0E447D4A-ECB1-43EB-8A56-9B924090BD56}DDVENDAS_T301" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - QT Liberada - 336 - Alterar Pedido Telemarketing TV20 - Liberar Todos" key="{BA73D8CE-4BCF-45E6-9569-A6875BDDFDB4}" group="False" parallel="False" enabled="True" testMoniker="{73B1617A-AEEC-41E4-8877-BF3A81D95A9D}DDVENDAS_T360" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - QT Liberada - 336 - Alterar Pedido Telemarketing TV11 - Duplo Clique - Gerar Falta" key="{CABF12F6-CCCC-4184-B494-5465FA6D1E16}" group="False" parallel="False" enabled="True" testMoniker="{2D9948B7-A61A-4F78-BA29-A86B25DA3EEE}DDVENDAS_T374" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - QT Bloqueada - 336 - Alterar Pedido Telemarketing TV9 - Duplo clique" key="{4ECDE7D7-9090-4E5F-BBD7-A811EADD4E54}" group="False" parallel="False" enabled="True" testMoniker="{2FAFD7FF-89C4-4A13-AA0C-4E4E63CF1A1E}DDVENDAS_T424" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - QT Disponível dois pedidos mesmo produto - Não aceita venda sem estoque, Manter pedido bloqueado - 336 - Alterar Pedido Telemarketing TV1" key="{03A8785C-9417-4B36-8B87-4E895C2625B7}" group="False" parallel="False" enabled="True" testMoniker="{AC28A6AC-F19B-4141-822E-7A6FE90E30FF}DDVENDAS_T432" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - QT Liberada - 336 - Alterar Pedido Telemarketing TV10 - Duplo Clique" key="{F6874A89-5EDD-4EAB-944C-55C543549A46}" group="False" parallel="False" enabled="True" testMoniker="{A4D70752-DDCF-41F1-9FF4-0C4E8DB34EDB}DDVENDAS_T443" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - QT Liberada - 336 - Alterar Pedido Telemarketing TV9 - Duplo Clique" key="{495DF2C9-0EFA-4316-B04E-4691944C1F5C}" group="False" parallel="False" enabled="True" testMoniker="{C47C164B-2BBB-4DFB-8613-AABF9F72B1E6}DDVENDAS_T450" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - QT Liberada - 336 - Alterar Pedido Telemarketing TV5 - Duplo Clique - Gerar Falta" key="{5A4137F0-9813-4299-B5BF-D984F12E9E8E}" group="False" parallel="False" enabled="True" testMoniker="{4A075869-615A-4F28-8032-24275435FB48}DDVENDAS_T512" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - QT Disponível dois pedidos mesmo produto, manter pedido pendente - 336 - Alterar Pedido Telemarketing TV1" key="{59C9D599-CE08-4364-95B5-1713EFC1D7FB}" group="False" parallel="False" enabled="True" testMoniker="{928CDDF4-FD9D-451C-BC88-6FD31670BA54}DDVENDAS_T514" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - QT Liberada - 336 - Alterar Pedido Telemarketing TV1 - Duplo Clique" key="{9A2D7B33-5BBD-4753-A660-76FD78EAB066}" group="False" parallel="False" enabled="True" testMoniker="{DDAABD3A-7AFD-4FD5-B46A-2B1C2C427ACB}DDVENDAS_T529" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - QT Liberada - 336 - Alterar Pedido Telemarketing TV1 - Duplo Clique" key="{C2DED58F-DEFA-48C2-999D-04EC5790D5B2}" group="False" parallel="False" enabled="True" testMoniker="{44009AB6-2D96-4FD4-B835-85C435E47EB8}DDVENDAS_T555" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - QT Liberada - 336 - Alterar Pedido Telemarketing TV9 - Liberar Todos" key="{BB5BC7C5-9493-4F04-A708-525BFEF8B0A4}" group="False" parallel="False" enabled="True" testMoniker="{3377088E-7F5E-464B-85E4-96F3E7BDB25B}DDVENDAS_T568" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - QT Disponível dois pedidos mesmo produto - Não aceita venda sem estoque, sem gerar falta - 336 - Alterar Pedido Telemarketing TV1" key="{59DFD507-BADA-435F-B04A-56E402712FDB}" group="False" parallel="False" enabled="True" testMoniker="{CF1D43FF-2B64-4CB8-97F6-28BA3B06F290}DDVENDAS_T633" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - QT Liberada - 336 - Alterar Pedido Telemarketing TV9 - Duplo Clique" key="{D4192A72-1D66-40B6-99B6-619E5A10C885}" group="False" parallel="False" enabled="True" testMoniker="{BE0EF5A6-68C9-4D39-AE2E-379F6FD454B6}DDVENDAS_T688" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - QT Bloqueada - 336 - Alterar Pedido Telemarketing TV20 - Duplo Clique" key="{64234205-7084-4176-B449-C923C7240755}" group="False" parallel="False" enabled="True" testMoniker="{0492E857-D5CD-4D40-A3DA-309B82DDA5A7}DDVENDAS_T703" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - QT Liberada - 336 - Alterar Pedido Telemarketing TV10 - Liberar Todos" key="{712E5948-C565-4982-B395-D3D7DC004F41}" group="False" parallel="False" enabled="True" testMoniker="{46E2F830-40BF-425C-A690-85B97E90290C}DDVENDAS_T708" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - QT Liberada - 336 - Alterar Pedido Telemarketing TV5 - Duplo Clique" key="{FFC4915F-E7CF-4A5B-956E-D465A0F68442}" group="False" parallel="False" enabled="True" testMoniker="{F3D2B5A8-4608-4B9D-AB23-388A2C242FB3}DDVENDAS_T749" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - Não movimenta estoque - 336 - Alterar Pedido Telemarketing TV7 - Alterar Cobrança" key="{0E11A1C3-3000-4482-A3E5-90712FE68692}" group="False" parallel="False" enabled="True" testMoniker="{ADFBB1E5-1921-4303-9DBE-5111D68ACFA9}DDVENDAS_T790" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - QT Liberada - 336 - Alterar Pedido Telemarketing TV13 - Duplo Clique - Gerar Falta" key="{B8868BB2-E619-46B3-9462-47E513E20B78}" group="False" parallel="False" enabled="True" testMoniker="{68DF41B9-F565-4E61-96B2-50D2BBAD7750}DDVENDAS_T809" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - QT Liberada - 336 - Alterar Pedido Telemarketing TV1 - Editar Quantidade de Itens" key="{CD496D92-3EC2-48F4-ABA2-E81DBAECC814}" group="False" parallel="False" enabled="True" testMoniker="{00434BA4-B7B1-4A8D-B173-3A44DC32EC76}DDVENDAS_T815" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - QT Liberada - 336 - Alterar Pedido Telemarketing TV1 - Liberar Todos" key="{30BF2A6B-4054-4E5C-92BB-C1391EED39CC}" group="False" parallel="False" enabled="True" testMoniker="{692497F7-F508-424F-A198-756E0E83310D}DDVENDAS_T835" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - QT Bloqueada - 336 - Alterar Pedido Telemarketing TV11 - Duplo clique&#32;&#32;" key="{BEF0B316-35A7-4707-B18A-C3381F16DA66}" group="False" parallel="False" enabled="True" testMoniker="{3C127172-68FB-4483-98DA-6CFBE2C4D865}DDVENDAS_T836" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - Alterar posição de pedido bloqueado sem estoque disponível, bloqueando pedido&#32;&#32;- 336 - Alterar Pedido Telemarketing TV1" key="{A3AAE8DF-4F4F-44BF-B2E1-A3391054F908}" group="False" parallel="False" enabled="True" testMoniker="{2512130D-ACD2-45CB-BC0E-FF0CDA80C9AA}DDVENDAS_T84" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - QT Liberada - 336 - Alterar Pedido Telemarketing TV20 - Duplo Clique" key="{DC96B92F-8D04-4EC1-954C-81047C0C81DF}" group="False" parallel="False" enabled="True" testMoniker="{A029F711-ED4E-410D-BC18-C56BC2D4B4E6}DDVENDAS_T850" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - Não movimenta estoque - 336 - Alterar Pedido Telemarketing TV7 - Duplo Clique" key="{98D2C7AB-B309-4827-96A3-A12D6DA1785D}" group="False" parallel="False" enabled="True" testMoniker="{1F0A975C-9214-447C-9B0A-108C0955B107}DDVENDAS_T871" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - QT Liberada - 336 - Alterar Pedido Telemarketing TV5 - Liberar Todos" key="{A03BD2E7-DCA5-4EDB-A16A-7B2AA1FA0D69}" group="False" parallel="False" enabled="True" testMoniker="{0FD17336-8875-4421-BD2D-1473754BF191}DDVENDAS_T885" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - QT Liberada - 336 - Alterar Pedido Telemarketing TV11 - Duplo Clique" key="{0B34AC8D-AD98-423C-8C89-019CD900F2BB}" group="False" parallel="False" enabled="True" testMoniker="{3C51CE83-C782-4EA8-9870-28C4109F4A26}DDVENDAS_T887" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - QT Liberada - 336 - Alterar Pedido Telemarketing TV1 - Duplo Clique - Gerar Falta" key="{37853B81-2164-441A-AD38-CE37409163F3}" group="False" parallel="False" enabled="True" testMoniker="{78629896-BCD5-46E0-A0A6-D1C292D5D419}DDVENDAS_T961" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Mov Estoque Gerencial - QT Liberada - 336 - Alterar Pedido Telemarketing TV10 - Duplo Clique - Gerar Falta" key="{8E5532DB-4343-402E-8936-EAD8AC4B37E3}" group="False" parallel="False" enabled="True" testMoniker="{9A03FD6D-C8F9-4949-9FF4-2FAAA295845E}DDVENDAS_T1029" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Alterar Pedido Telemarketing TV7 -Liberação de pedidos na 336 com bloqueio do financeiro" key="{7A29F0B6-20D9-46AD-81E0-4E287A4CFF93}" group="False" parallel="False" enabled="True" testMoniker="{58A7E417-89BA-4E3E-B961-D9A1192824AB}DDVENDAS_T29549" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Alterar plano de pagamento" key="{3CE6E1C8-A893-48FB-8404-42D4178732A3}" group="False" parallel="False" enabled="True" testMoniker="{C036A247-7DAE-41DE-8484-79A29D13EFCD}DDVENDAS_T2122" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="336 -&#32;&#32;&#32;&apos;Sem Estoque&apos; na combo &apos;Pedido que possui itens&apos; na ABA F4" key="{C6960349-FD97-4837-B2B6-1C86314320D4}" group="False" parallel="False" enabled="True" testMoniker="{2CD70F99-80D6-4702-973B-BC5A0107AC4F}DDVENDAS_T2127" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name=" Rotina 316 Produto com brinde" key="{44E7C520-6B27-4939-B66A-6134B17FCA81}" group="False" parallel="False" enabled="True" testMoniker="{36EA5604-1AAC-4E0A-A777-47A77A4316CA}DDVENDAS_T29612" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Liberação de Pedido Balcão Bloqueado Não Gera Numero De Carregamento" key="{F73729DB-33A8-43C7-99DB-FE6274F482B4}" group="False" parallel="False" enabled="True" testMoniker="{1AC74342-90A5-4FD3-A749-9988D32D4238}DDVENDAS_T2129" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Liberar Pedido com Quantidade Fracionada" key="{311FD6A2-CEA2-4379-BF3D-22F84228A0EC}" group="False" parallel="False" enabled="True" testMoniker="{703F455E-4B05-4626-8839-F2BC8CFF6C06}DDVENDAS_T2130" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Validar os campos&#32;&#32;&apos;numpedcli&apos; e &apos;numitemped&apos; correspondem aos valores digitados" key="{2878057B-1A99-44C1-A2BE-50397AE286BE}" group="False" parallel="False" enabled="True" testMoniker="{4921FAD8-6CDC-49D9-9EE8-0F0169C0DB3B}DDVENDAS_T2779" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Alterar quantidade de itens" key="{81165B9E-2496-4E63-87D6-D227EF4138C5}" group="False" parallel="False" enabled="True" testMoniker="{1B3AA438-2543-4669-A16E-DEAC26027FD6}DDVENDAS_T31468" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Alterar quantidade de itens ValidaRestricoesVendaPorRCA = SIM, UTILIZAPCUSURFORNEC = sim" key="{8B558957-8DE0-4FA3-A894-FFC022282DAB}" group="False" parallel="False" enabled="True" testMoniker="{78588DD8-6DDA-4561-BAD8-1C5950CA2CB2}DDVENDAS_T2877" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="TRAVA NA HORA DE DAR DESCONTO" key="{1D56044E-4984-41EC-9276-C3ED4ED058F1}" group="False" parallel="False" enabled="True" testMoniker="{9DF7C4C1-2FB5-480A-BC51-626646056643}DDVENDAS_T2881" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Liberação de venda TV4" key="{91BB3522-64D3-4177-A05B-8026EBDF341C}" group="False" parallel="False" enabled="True" testMoniker="{449AD435-CA6C-4E9F-A8EB-3123A4504DC4}DDVENDAS_T2882" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="(Desconto/Acréscimo) não está recalculando o imposto" key="{34ABCCDC-276D-4387-9766-DDE372E342BF}" group="False" parallel="False" enabled="True" testMoniker="{E696EF65-2F8A-44A2-9C64-04B2E6219C19}DDVENDAS_T2884" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Desconto sendo aplicado duas vezes ao inserir produto" key="{2FBD769B-F88B-4D8D-807C-9359695C8EF0}" group="False" parallel="False" enabled="True" testMoniker="{AC8871F2-A22B-4799-8D74-E4C41D5E30DD}DDVENDAS_T2920" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Recálculo de pedido quando alterado plano de pagamento" key="{078666D1-1551-4287-8017-9794ED0FD44B}" group="False" parallel="False" enabled="True" testMoniker="{B6FA3205-D4BA-4B71-826C-D23D12A04E16}DDVENDAS_T2943" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="336 - Liberação - Erro Ao Liberar de Pedido com Cobranças BK e Limite Mínimo Para Cobrança" key="{8BB35960-6399-4EB4-A5A4-9CFD5026F2C6}" group="False" parallel="False" enabled="True" testMoniker="{CA68BC2A-2FFB-44D4-AF2F-5EA1E1932FF5}DDVENDAS_T2964" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Inclusão de item com preço fixo e desconto suframa" key="{A908680E-4789-4527-93F0-783BA4BC56D7}" group="False" parallel="False" enabled="True" testMoniker="{377D01D1-40E2-41F6-86FE-73C84377DB5F}DDVENDAS_T2995" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Substituição de produto com quantidade maior que 10000" key="{43D3FAF4-7686-4C02-95AE-89C59847F880}" group="False" parallel="False" enabled="True" testMoniker="{40668695-CFB8-47A8-AA58-79290CA8B433}DDVENDAS_T2998" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Tentativa de alteração de cobrança para cliente sem limite de crédito disponível" key="{1190F704-C3BF-4AAE-BBC3-65C5844958DD}" group="False" parallel="False" enabled="True" testMoniker="{695D1D2D-B136-4CF2-8E66-35B15B2CDF8B}DDVENDAS_T2999" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Alteração de preço com desconto em item com desconto suframa" key="{928DE779-B353-43B8-A3E5-5770723EF612}" group="False" parallel="False" enabled="True" testMoniker="{D81D840C-5DC1-4BED-8073-316C9FFF9FC7}DDVENDAS_T2911" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="336 - Alterar Pedido Telemarketing TV1 - Pedido com valor divergente do esperado" key="{537153C9-75C9-4E56-AEE0-D2AECD358427}" group="False" parallel="False" enabled="True" testMoniker="{38D92503-23E4-4A9D-BC5C-7409E5F6CCE9}DDVENDAS_T3004" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="336 - Está considerando %desconto da campanha cadastrada na 561" key="{FF01C309-FBE5-4868-9C25-4423F0845A11}" group="False" parallel="False" enabled="True" testMoniker="{4A56E31C-72FB-4C3B-B244-40FBE38FC5CB}DDVENDAS_T3005" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="316 - Venda Filial Retira - permissão 51 da 530" key="{A5FB8DAB-B7E9-4CB5-94DD-718899640387}" group="False" parallel="False" enabled="True" testMoniker="{BA021314-B895-4C75-9FCF-4A8A0158F174}DDVENDAS_T3027" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="336 - Zerando Frete Gratuito" key="{B11138B3-C7CA-4231-B0FD-D43035BFCECD}" group="False" parallel="False" enabled="True" testMoniker="{5C7E7893-F192-4EEA-B2F1-8CC28321E0E0}DDVENDAS_T3028" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Alteração de item com politica com verba" key="{5D0BC565-D540-4511-8438-3C576A24E09C}" group="False" parallel="False" enabled="True" testMoniker="{345B85A7-2C96-4809-83FD-1DB8E71B4021}DDVENDAS_T3030" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Alteração de quantidade do item com politica com verba" key="{229E3F09-7640-4DAC-B75C-BC8AD92175ED}" group="False" parallel="False" enabled="True" testMoniker="{AFC5AF53-280C-4AE8-81D6-0A59BAEEF711}DDVENDAS_T3031" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="336 - PREÇO FINCANDO ERRADO" key="{5A8C7C02-8669-460B-90A8-0B9F5337D559}" group="False" parallel="False" enabled="True" testMoniker="{1FA99BDF-B571-4E30-B57B-98170A8633C4}DDVENDAS_T3054" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Liberacao de pedido tv1 com bloqueio financeiro contendo brinde no TV5" key="{9F59ECB9-8E69-4FAE-B981-565139C77545}" group="False" parallel="False" enabled="True" testMoniker="{FEEC84CB-5ADE-4190-80D7-53A92F3D9FED}DDVENDAS_T3050" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Inclusao de produto cesta com estoque em pedido liberado" key="{582492D4-1952-42BE-8AB2-7627344A6207}" group="False" parallel="False" enabled="True" testMoniker="{66E8E2B6-B08F-4D3E-9B1F-B8DEF57CE73D}DDVENDAS_T3086" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Validação de conta corrente aplicando desconto em produto bonificado" key="{92BE452F-86BD-498D-A926-F7676D1831A3}" group="False" parallel="False" enabled="True" testMoniker="{3582489B-82A7-4C80-A50F-B726704BAB18}DDVENDAS_T3087" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Validação de liberação pedido tv5 liberando pelo botão liberar todos" key="{1F3540C9-8042-42B6-93A1-E72743C37B41}" group="False" parallel="False" enabled="True" testMoniker="{98776058-885A-43AD-BCD6-9A309E9A4377}DDVENDAS_T3094" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Validação de situação tributária e CFOP após alterar quantidade de item em um pedido VA" key="{4E64748B-9950-41DE-8DAD-E43B5584F0FA}" group="False" parallel="False" enabled="True" testMoniker="{70C04EF2-3814-447C-BBA7-A20D5D24A65D}DDVENDAS_T3133" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Validação de listagem de todos os itens na inclusão do item" key="{CF6BF418-DFF8-4C29-8847-5C8DC31D847E}" group="False" parallel="False" enabled="True" testMoniker="{F75AD589-17A3-4B47-98C4-78FD54D801D4}DDVENDAS_T3139" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Validação de liberação de pedido utilizando processo de abatimento contendo produto sem estoque" key="{CF848CBA-9C3A-4219-867C-B72F17C7D9A0}" group="False" parallel="False" enabled="True" testMoniker="{B0CA4878-FADB-4EC3-B133-F647C7A88FB8}DDVENDAS_T3144" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Zerando valor de frete validando cabeçalho e itens" key="{B9776EED-4201-47F6-B973-A2B3EC8366F3}" group="False" parallel="False" enabled="True" testMoniker="{97578733-CB39-4BB0-A185-1C5B5C6CF62E}DDVENDAS_T3153" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Validando tentativa de inclusão produto CB com filial retira diferente da filial de venda" key="{955361CF-D176-46A2-AB7F-88808782E381}" group="False" parallel="False" enabled="True" testMoniker="{5611044C-7172-4759-AAEB-57057098792B}DDVENDAS_T3157" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Liberação de pedido contendo produto sem estoque tipo &apos;FR&apos; com embalagem &apos;PC&apos; gerando novo pedido" key="{32C80F3C-407B-499A-83CE-F56828335023}" group="False" parallel="False" enabled="True" testMoniker="{03FED5B8-07D6-4173-9067-79EA05FC7AD2}DDVENDAS_T3166" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name=" 336 - Desconto - Tela Alteração de Preço - Problema Ao Retirar Desconto e Aplicar no Cabeçalho" key="{9ADF7802-9E38-46FE-B611-E7D06D84242E}" group="False" parallel="False" enabled="True" testMoniker="{60253956-B14B-460D-B7F6-BE91E8DF3A8D}DDVENDAS_T3197" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Aplicação de desconto em pedido de cliente sem limite de crédito" key="{07B7D991-81CB-40F9-B5DC-D6E92631245F}" group="False" parallel="False" enabled="True" testMoniker="{DF894A45-3938-4B93-902D-F925313B53BB}DDVENDAS_T3172" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Alteração da posição do pedido após fechar tela de Entrega/OBS" key="{D9E55E33-3BE7-4FF1-A86D-871934CEDCC4}" group="False" parallel="False" enabled="True" testMoniker="{C6A95129-F117-4778-A8F3-50F50B335B36}DDVENDAS_T3267" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DDVENDAS-T3909 - Validar exibição do IPI do item na grid pós alterar plano de pagamento" key="{CE1168AE-8204-4405-8549-AADC9322E049}" group="False" parallel="False" enabled="True" testMoniker="{1A68D1D2-C2E6-469D-842B-8088F79DB3FC}DDVENDAS_T3909" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+								</children>
+							</testItem>
+							<testItem name="Calculo de Preço na Autorização da Venda - DDVENDAS-46580" key="{D51289CE-4999-4674-AF33-23F77FD86CBC}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children>
+									<testItem name="DDVENDAS-T3439 | Cálculo da Autorização de Preço do Produto. FIL_UTILIZAALIQREDVLPAUTADOS = S, Mostrar preço sem ST e Fecp na venda = Sim e com Alíquotas Preenchidas, Calcula ST = S, Isento = N e Editando Item do Pedido" key="{84EB7931-0BF6-42AD-A698-D734BF2F45A8}" group="False" parallel="False" enabled="True" testMoniker="{1B5B40EE-32AC-46ED-AC07-0EAE3F453C76}DDVENDAS_T3439" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DDVENDAS-T3447 | Cálculo da Autorização de Preço do Produto. FIL_UTILIZAALIQREDVLPAUTADOS = S, Mostrar preço sem ST e Fecp na venda = Sim e com Alíquotas Preenchidas, Calcula ST = S, Isento = N e Incluindo Item no Pedido" key="{07C4EB7D-9FFA-41AF-A996-B1303F1746B9}" group="False" parallel="False" enabled="True" testMoniker="{F27CD045-8DBE-4937-9C17-ECDFCDD74167}DDVENDAS_T3447" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DDVENDAS-T3450 | Cálculo da Autorização de Preço do Produto. FIL_UTILIZAALIQREDVLPAUTADOS = S, Mostrar preço sem ST e Fecp na venda = Sim e com Alíquotas Preenchidas, Calcula ST = N, Isento = N e Editando Item no Pedido" key="{2F1BA52F-B17F-4853-A2BC-125956882BED}" group="False" parallel="False" enabled="True" testMoniker="{2A33E990-9B7B-45DC-8469-16FF9F5F4E8B}DDVENDAS_T3450" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DDVENDAS-T3451 | Cálculo da Autorização de Preço do Produto. FIL_UTILIZAALIQREDVLPAUTADOS = S, Mostrar preço sem ST e Fecp na venda = Sim e com Alíquotas Preenchidas, Calcula ST = S, Isento = S e Incluindo Item no Pedido" key="{1D896999-3A31-4EEF-92AA-B9F59DCDE0A5}" group="False" parallel="False" enabled="True" testMoniker="{8457AF39-6FBC-4473-8639-31E35EC495CC}DDVENDAS_T3451" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DDVENDAS-T3452 | Cálculo da Autorização de Preço do Produto. FIL_UTILIZAALIQREDVLPAUTADOS = S, Mostrar preço sem ST e Fecp na venda = Não e com Alíquotas Preenchidas, Calcula ST = S, Isento = N e Editando Item do Pedido" key="{2DAFABE6-48B5-4340-BBE0-F3646CD8FD81}" group="False" parallel="False" enabled="True" testMoniker="{1E1F83E5-5E75-424B-899C-88C05BB29970}DDVENDAS_T3452" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DDVENDAS-T3458 | Cálculo da Autorização de Preço do Produto. FIL_UTILIZAALIQREDVLPAUTADOS = S, Mostrar preço sem ST e Fecp na venda = Não e com Alíquotas Preenchidas, Calcula ST = S, Isento = N e Incluindo Item no Pedido" key="{3A6DA9A4-D122-4CF4-B512-ABDDA4B79B46}" group="False" parallel="False" enabled="True" testMoniker="{FDCD0329-F208-4608-9835-5D56CA8CD26F}DDVENDAS_T3458" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DDVENDAS-T3459 | Cálculo da Autorização de Preço do Produto. FIL_UTILIZAALIQREDVLPAUTADOS = S, Mostrar preço sem ST e Fecp na venda = Não e com Alíquotas Preenchidas, Calcula ST = N, Isento = N e Editando Item do Pedido" key="{EE48CF6F-BA90-4892-9317-A71D2ECC01EA}" group="False" parallel="False" enabled="True" testMoniker="{9CB7026E-FAFA-4C70-9548-FD797672524F}DDVENDAS_T3459" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DDVENDAS-T3460 | Cálculo da Autorização de Preço do Produto. FIL_UTILIZAALIQREDVLPAUTADOS = S, Mostrar preço sem ST e Fecp na venda = Não e com Alíquotas Preenchidas, Calcula ST = N, Isento = N e Incluindo Item no Pedido" key="{08985434-AB68-479B-A428-357C7398C7CF}" group="False" parallel="False" enabled="True" testMoniker="{3CF4E54B-B078-47EA-95B6-39D57BD99F83}DDVENDAS_T3460" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DDVENDAS-T3461 | Cálculo da Autorização de Preço do Produto. FIL_UTILIZAALIQREDVLPAUTADOS = S, Mostrar preço sem ST e Fecp na venda = Sim e com Alíquotas Preenchidas, Calcula ST = S, Isento = N e Editando Item do Pedido" key="{FBD4EB05-47F8-4A44-B4CF-46D9537AE07C}" group="False" parallel="False" enabled="True" testMoniker="{11345ABE-79BD-4EFA-935E-8C7A1229BD88}DDVENDAS_T3461" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DDVENDAS-T3462 | Cálculo da Autorização de Preço do Produto. FIL_UTILIZAALIQREDVLPAUTADOS = S, Mostrar preço sem ST e Fecp na venda = Sim e com Alíquotas Preenchidas, Calcula ST = S, Isento = N e Incluindo Item no Pedido" key="{E460D759-F7F6-4850-ABC6-0B0ECAAA3094}" group="False" parallel="False" enabled="True" testMoniker="{6782DACD-C264-4689-BFAE-516B18962EF0}DDVENDAS_T3462" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DDVENDAS-T3465 | Cálculo da Autorização de Preço do Produto. FIL_UTILIZAALIQREDVLPAUTADOS = S, Mostrar preço sem ST e Fecp na venda = Sim e sem Alíquotas Preenchidas, Calcula ST = N, Isento = S e Editando Item no Pedido" key="{027B117F-6D89-4E5D-B06F-C3E5881CA936}" group="False" parallel="False" enabled="True" testMoniker="{ECB8E70B-79F5-4ECC-A9A6-52D52EFD64D4}DDVENDAS_T3465" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DDVENDAS-T3466 | Cálculo da Autorização de Preço do Produto. FIL_UTILIZAALIQREDVLPAUTADOS = S, Mostrar preço sem ST e Fecp na venda = Sim e Sem Alíquotas Preenchidas, Calcula ST = S, Isento = S e Incluindo Item no Pedido" key="{A4997871-7402-438E-AC01-B122865C35DD}" group="False" parallel="False" enabled="True" testMoniker="{96831BD1-A6C1-4FB5-A2E4-9432F6CD10AF}DDVENDAS_T3466" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DDVENDAS-T3467 | Cálculo da Autorização de Preço do Produto. FIL_UTILIZAALIQREDVLPAUTADOS = S, Mostrar preço sem ST e Fecp na venda = Não e sem Alíquotas Preenchidas, Calcula ST = S, Isento = N e Editando Item do Pedido" key="{9BA74078-1F72-4BA1-A108-C1EADCA59720}" group="False" parallel="False" enabled="True" testMoniker="{18A974D1-475F-4E08-9E95-2D07F7526AF2}DDVENDAS_T3467" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DDVENDAS-T3468 | Cálculo da Autorização de Preço do Produto. FIL_UTILIZAALIQREDVLPAUTADOS = S, Mostrar preço sem ST e Fecp na venda = Não e sem Alíquotas Preenchidas, Calcula ST = S, Isento = N e Incluindo Item no Pedido" key="{D72E4E51-B0F2-4824-B0B8-9E0BD5C4B037}" group="False" parallel="False" enabled="True" testMoniker="{99911975-6388-4FD9-8257-2B55A2CAC681}DDVENDAS_T3468" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DDVENDAS-T3469 | Cálculo da Autorização de Preço do Produto. FIL_UTILIZAALIQREDVLPAUTADOS = S, Mostrar preço sem ST e Fecp na venda = Não e sem Alíquotas Preenchidas, Calcula ST = N, Isento = N e Editando Item do Pedido" key="{A34289B4-7318-44EB-854A-88FF48952538}" group="False" parallel="False" enabled="True" testMoniker="{A316929F-42CE-4CE8-83E8-6D914D51D8BF}DDVENDAS_T3469" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DDVENDAS-T3470 | Cálculo da Autorização de Preço do Produto. FIL_UTILIZAALIQREDVLPAUTADOS = S, Mostrar preço sem ST e Fecp na venda = Não e sem Alíquotas Preenchidas, Calcula ST = N, Isento = N e Incluindo Item no Pedido" key="{7D4FC167-EE04-4F57-B8C0-A80F30F6B596}" group="False" parallel="False" enabled="True" testMoniker="{AA0E671A-6013-46CC-A638-E5A7BAB94AD6}DDVENDAS_T3470" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DDVENDAS-T3503 | Cálculo da Autorização de Preço do Produto. FIL_UTILIZAALIQREDVLPAUTADOS = N, Mostrar preço sem ST e Fecp na venda = Sim e com Alíquotas Preenchidas, Calcula ST = S, Isento = N e Editando Item do Pedido" key="{59119AD2-E1FC-47FE-BE66-B162157ED183}" group="False" parallel="False" enabled="True" testMoniker="{7976EC88-EF09-426F-A35F-AF9D8FCB9A2E}DDVENDAS_T3503" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DDVENDAS-T3504 | Cálculo da Autorização de Preço do Produto. FIL_UTILIZAALIQREDVLPAUTADOS = N, Mostrar preço sem ST e Fecp na venda = Sim e com Alíquotas Preenchidas, Calcula ST = S, Isento = N e Incluindo Item no Pedido" key="{3F37A56E-C4A6-4D2F-914D-949188915998}" group="False" parallel="False" enabled="True" testMoniker="{224BE877-2DF5-4B31-AE33-3B476479E187}DDVENDAS_T3504" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DDVENDAS-T3505 | Cálculo da Autorização de Preço do Produto. FIL_UTILIZAALIQREDVLPAUTADOS = N, Mostrar preço sem ST e Fecp na venda = Sim e com Alíquotas Preenchidas, Calcula ST = N, Isento = N e Editando Item no Pedido" key="{03D4F20C-3FA0-4C7C-9AF0-DEE4BCA85F8A}" group="False" parallel="False" enabled="True" testMoniker="{47D0E939-B331-4020-A28E-02AF1FB4B631}DDVENDAS_T3505" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DDVENDAS-T3506 | Cálculo da Autorização de Preço do Produto. FIL_UTILIZAALIQREDVLPAUTADOS = N, Mostrar preço sem ST e Fecp na venda = Sim e com Alíquotas Preenchidas, Calcula ST = S, Isento = S e Incluindo Item no Pedido" key="{C97C220E-CC3B-458A-AB75-2CE9B84C70B8}" group="False" parallel="False" enabled="True" testMoniker="{3F3C9545-555D-42C6-A69B-7E05E8EA4AD2}DDVENDAS_T3506" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DDVENDAS-T3507 | Cálculo da Autorização de Preço do Produto. FIL_UTILIZAALIQREDVLPAUTADOS = N, Mostrar preço sem ST e Fecp na venda = Não e com Alíquotas Preenchidas, Calcula ST = S, Isento = N e Editando Item do Pedido" key="{F7283FD3-1718-44A8-8AD5-509039A99701}" group="False" parallel="False" enabled="True" testMoniker="{615F67CB-1436-4873-B9AA-6549C258C486}DDVENDAS_T3507" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DDVENDAS-T3508 | Cálculo da Autorização de Preço do Produto. FIL_UTILIZAALIQREDVLPAUTADOS = N, Mostrar preço sem ST e Fecp na venda = Não e com Alíquotas Preenchidas, Calcula ST = S, Isento = N e Incluindo Item no Pedido" key="{865D8874-BA98-4822-9132-D00C061783A7}" group="False" parallel="False" enabled="True" testMoniker="{91E94D6B-BBC1-411D-9891-053F600FDC49}DDVENDAS_T3508" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DDVENDAS-T3509 | Cálculo da Autorização de Preço do Produto. FIL_UTILIZAALIQREDVLPAUTADOS = N, Mostrar preço sem ST e Fecp na venda = Não e com Alíquotas Preenchidas, Calcula ST = N, Isento = N e Editando Item do Pedido" key="{F0AB41F8-542B-446E-8417-52EAB70DC4F8}" group="False" parallel="False" enabled="True" testMoniker="{E3BC49A0-F70C-4626-B24A-D9F08DDDF901}DDVENDAS_T3509" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DDVENDAS-T3510 | Cálculo da Autorização de Preço do Produto. FIL_UTILIZAALIQREDVLPAUTADOS = N, Mostrar preço sem ST e Fecp na venda = Não e com Alíquotas Preenchidas, Calcula ST = N, Isento = N e Incluindo Item no Pedido" key="{89680088-F010-4990-A16A-A6E36E93FCEE}" group="False" parallel="False" enabled="True" testMoniker="{E9E966C9-B470-424B-B808-2A666F656AE8}DDVENDAS_T3510" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DDVENDAS-T3511 | Cálculo da Autorização de Preço do Produto. FIL_UTILIZAALIQREDVLPAUTADOS = N, Mostrar preço sem ST e Fecp na venda = Sim e com Alíquotas Preenchidas, Calcula ST = S, Isento = N e Editando Item do Pedido" key="{278323B4-513A-4B72-ABA1-08119895C352}" group="False" parallel="False" enabled="True" testMoniker="{79F880B3-E484-4BB9-80A9-C413BF2136D6}DDVENDAS_T3511" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DDVENDAS-T3512 | Cálculo da Autorização de Preço do Produto. FIL_UTILIZAALIQREDVLPAUTADOS = N, Mostrar preço sem ST e Fecp na venda = Sim e com Alíquotas Preenchidas, Calcula ST = S, Isento = N e Incluindo Item no Pedido" key="{67B6AE24-3930-4E76-9E21-ED577ED129CA}" group="False" parallel="False" enabled="True" testMoniker="{1ED39A09-1E8F-40B1-B5C8-E302B7BC98E5}DDVENDAS_T3512" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DDVENDAS-T3513 | Cálculo da Autorização de Preço do Produto. FIL_UTILIZAALIQREDVLPAUTADOS = N, Mostrar preço sem ST e Fecp na venda = Sim e sem Alíquotas Preenchidas, Calcula ST = N, Isento = S e Editando Item no Pedido" key="{9F9157DD-7F3B-4434-970B-422A24241A9B}" group="False" parallel="False" enabled="True" testMoniker="{0828FBE8-D55E-41BC-9729-D58B20744C94}DDVENDAS_T3513" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DDVENDAS-T3514 | Cálculo da Autorização de Preço do Produto. FIL_UTILIZAALIQREDVLPAUTADOS = N, Mostrar preço sem ST e Fecp na venda = Sim e Sem Alíquotas Preenchidas, Calcula ST = S, Isento = S e Incluindo Item no Pedido" key="{84915D33-372C-40AD-B785-E5550EA09724}" group="False" parallel="False" enabled="True" testMoniker="{FA711F64-FC22-44E6-8F96-57D404E39C78}DDVENDAS_T3514" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DDVENDAS-T3515 | Cálculo da Autorização de Preço do Produto. FIL_UTILIZAALIQREDVLPAUTADOS = N, Mostrar preço sem ST e Fecp na venda = Não e sem Alíquotas Preenchidas, Calcula ST = S, Isento = N e Editando Item do Pedido&#13;&#10;" key="{1CA5BE54-494B-45F8-A674-230C4094B6F1}" group="False" parallel="False" enabled="True" testMoniker="{D2F5C630-5A9B-471B-BA9E-C7EF3975635D}DDVENDAS_T3515" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DDVENDAS-T3516 | Cálculo da Autorização de Preço do Produto. FIL_UTILIZAALIQREDVLPAUTADOS = S, Mostrar preço sem ST e Fecp na venda = Não e sem Alíquotas Preenchidas, Calcula ST = S, Isento = N e Incluindo Item no Pedido" key="{6EBC6DEC-B70F-427D-A900-662A2B7D7AC3}" group="False" parallel="False" enabled="True" testMoniker="{AC7E46B4-1D6E-4D59-8190-F4333992A0DD}DDVENDAS_T3516" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DDVENDAS-T3517 | Cálculo da Autorização de Preço do Produto. FIL_UTILIZAALIQREDVLPAUTADOS = N, Mostrar preço sem ST e Fecp na venda = Não e sem Alíquotas Preenchidas, Calcula ST = N, Isento = N e Editando Item do Pedido" key="{4F642891-6625-4381-9D1D-9203872C4175}" group="False" parallel="False" enabled="True" testMoniker="{93DF38D8-976B-4797-8AB9-045746FFFAC6}DDVENDAS_T3517" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DDVENDAS-T3518 | Cálculo da Autorização de Preço do Produto. FIL_UTILIZAALIQREDVLPAUTADOS = N, Mostrar preço sem ST e Fecp na venda = Não e sem Alíquotas Preenchidas, Calcula ST = N, Isento = N e Incluindo Item no Pedido" key="{FD587581-C0E1-4CE3-993B-790365A45B2D}" group="False" parallel="False" enabled="True" testMoniker="{FE0EF741-12DE-4CA4-A9D8-6D3ABE99B90A}DDVENDAS_T3518" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+								</children>
+							</testItem>
+							<testItem name=" Valor máximo para pessoa física em reais mês - DDVENDAS-46814" key="{02E77CCA-A7C8-4E21-BF3A-82A5EE710B6B}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children>
+									<testItem name="DDVENDAS-T3614 - Inclusão de Item - Parâmetro 3811 = 0 | Parâmetro 1948 = S" key="{09DEC113-DF52-4316-94FC-F59520139C45}" group="False" parallel="False" enabled="True" testMoniker="{EF9A4488-416F-4D22-998F-A7CFB81D63EF}DDVENDAS_T3614" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DDVENDAS-T3615 - Inclusão de Item - Parâmetro 3811 &gt; 0 | Parâmetro 1948 = S" key="{8447CB5E-0742-4EA5-B306-A787520276CB}" group="False" parallel="False" enabled="True" testMoniker="{7F5A184B-4673-4C71-96B2-AD1039DEC8D7}DDVENDAS_T3615" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DDVENDAS-T3616 - Inclusão de Item - Parâmetro 3811 = 0 | Parâmetro 1948 = N" key="{05288BBC-F20D-4A1C-8C64-364D33743369}" group="False" parallel="False" enabled="True" testMoniker="{0C166F80-9350-44B5-A74B-FBABFA4189FF}DDVENDAS_T3616" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DDVENDAS-T3617 - Inclusão de Item - Parâmetro 3811 &gt; 0 | Parâmetro 1948 = N" key="{082C01E9-FA06-4FE0-9974-6C45946AA0E3}" group="False" parallel="False" enabled="True" testMoniker="{CF413CC2-5CD7-4F38-8FC8-26160D34F507}DDVENDAS_T3617" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DDVENDAS-T3618 - Alteração de Quantidade - Parâmetro 3811 = 0 | Parâmetro 1948 = S" key="{070DEFA3-9245-4639-9AEA-4A2F48C83210}" group="False" parallel="False" enabled="True" testMoniker="{7AA3F7D7-1EB1-4C3C-9D21-60F45C4F532D}DDVENDAS_T3618" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DDVENDAS-T3619 - Alteração de Quantidade - Parâmetro 3811 &gt; 0 | Parâmetro 1948 = S" key="{8DC76F34-4691-4FF2-8512-BD756FB5870D}" group="False" parallel="False" enabled="True" testMoniker="{82D33796-3FAE-4FA1-9FBD-E8B6C3C50A55}DDVENDAS_T3619" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DDVENDAS-T3620 - Alteração de Quantidade - Parâmetro 3811 = 0 | Parâmetro 1948 = N" key="{B8FD7243-B4D1-4D82-BD29-EB736BC09972}" group="False" parallel="False" enabled="True" testMoniker="{8517D07F-1EA3-42A7-9962-4B119744EFCE}DDVENDAS_T3620" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DDVENDAS-T3621 - Alteração de Quantidade - Parâmetro 3811 &gt; 0 | Parâmetro 1948 = N" key="{47E8067B-E60F-4E1C-9B72-8D500EF7F54B}" group="False" parallel="False" enabled="True" testMoniker="{0D9F8819-461C-4A8D-99F3-628B431B717F}DDVENDAS_T3621" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DDVENDAS-T3622 - Alteração de Preço - Parâmetro 3811 = 0 | Parâmetro 1948 = S" key="{D63A2CD0-EB20-4037-B9FC-85C9BB9542C1}" group="False" parallel="False" enabled="True" testMoniker="{A24D9E14-9100-49B3-99DD-2D793F04B6C8}DDVENDAS_T3622" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DDVENDAS-T3623 - Alteração de Preço - Parâmetro 3811 &gt; 0 | Parâmetro 1948 = S" key="{B30622FD-79CC-49AD-A712-5B1D0D94C12B}" group="False" parallel="False" enabled="True" testMoniker="{1ACB6B73-7261-4381-AA97-C899DFE9B8CC}DDVENDAS_T3623" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DDVENDAS-T3624 - Alteração de Preço - Parâmetro 3811 = 0 | Parâmetro 1948 = N" key="{A83E9FA2-BBFE-485B-8F0B-93BAF54D86E4}" group="False" parallel="False" enabled="True" testMoniker="{A917071E-20F8-48C3-A17A-4CD3772E171E}DDVENDAS_T3624" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="DDVENDAS-T3625 - Alteração de Preço - Parâmetro 3811 &gt; 0 | Parâmetro 1948 = N" key="{F8B6F11B-0C2F-4E5A-BCD7-1C2532E3BB63}" group="False" parallel="False" enabled="True" testMoniker="{EAE87C0E-0BF7-4787-8298-93A47C9D585E}DDVENDAS_T3625" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+								</children>
+							</testItem>
+							<testItem name="Calculo de preço de venda ao alterar o preço variando a flag &quot;Mostrar Preço sem IPI na Venda&quot; na 514 - DDVENDAS-45001" key="{9ED15147-2E9E-40A0-9F43-663F2062A8F1}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children>
+									<testItem name="Não apresentar erro de movimentação de conta corrente se item não movimentar conta - Com Flag &quot;Não debitar conta corrente do RCA ao conceder desconto&quot; = Sim (561) e Aplicando Desconto no Pedido " key="{37AF622E-805E-4DCE-AD9E-AAC4A496FD2C}" group="False" parallel="False" enabled="True" testMoniker="{5576F24C-4A9F-42B4-BCC9-6126EAAC7E04}DDVENDAS_T3350" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Não apresentar erro de movimentação de conta corrente se item não movimentar conta - Com Flag &quot;Não debitar conta corrente do RCA ao conceder desconto&quot; = Sim (561) e Aplicando Desconto na Edição do Pedido&#13;&#10;" key="{DE8E3E1F-E413-48FA-AACF-4B37A48B779A}" group="False" parallel="False" enabled="True" testMoniker="{58A1D53D-0E78-4A44-B747-86BA1CDD3111}DDVENDAS_T3357" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Não apresentar erro de movimentação de conta corrente se item não movimentar conta - Com Flag &quot;Não debitar conta corrente do RCA ao conceder desconto&quot; = Não (561) e Aplicando Desconto no Pedido&#13;&#10;" key="{29562A46-2808-4BB3-B908-113AA3EB03E3}" group="False" parallel="False" enabled="True" testMoniker="{2447E461-1B3A-41FF-83D1-7C9F50AFD702}DDVENDAS_T3358" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Não apresentar erro de movimentação de conta corrente se item não movimentar conta - Com Flag &quot;Não debitar conta corrente do RCA ao conceder desconto&quot; = Não (561) e Aplicando Desconto na Edição do Pedido&#13;&#10;" key="{1764B67F-0B41-4080-A717-C746D0969C95}" group="False" parallel="False" enabled="True" testMoniker="{6BD381D6-816A-49F6-894F-C140D6EE21A1}DDVENDAS_T3359" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Calcular o preço de venda ao alterar o preço. Produto com Desconto, Cliente Isento IPI, Tributação por Estado e Marcado &quot;Mostrar Preço sem IPI na Venda&quot; na 514" key="{B7A15095-F134-4E28-8F2D-720311490304}" group="False" parallel="False" enabled="True" testMoniker="{236630A8-B9DE-4958-A032-1B4BF69B0B91}DDVENDAS_T3365" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Calcular o preço de venda ao alterar o preço. Produto com Desconto, Cliente Isento IPI, Tributação por Estado e Desmarcado &quot;Mostrar Preço sem IPI na Venda&quot; na 514" key="{375D2113-1FE7-4995-AE60-08D20BBA147D}" group="False" parallel="False" enabled="True" testMoniker="{CC7CDC2E-1168-4573-87BF-CE4D3061F5E1}DDVENDAS_T3371" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Calcular o preço de venda ao alterar o preço. Produto com Desconto, Cliente Isento IPI, Tributação por Produto e Marcado &quot;Mostrar Preço sem IPI na Venda&quot; na 514" key="{E3AD5EF2-0017-48C9-8CAB-E8BDF632D3D8}" group="False" parallel="False" enabled="True" testMoniker="{7A6DACCC-B151-4F5F-BF6D-A92FD153FD76}DDVENDAS_T3372" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Calcular o preço de venda ao alterar o preço. Produto com Desconto, Cliente Isento IPI, Tributação por Produto e Desmarcado &quot;Mostrar Preço sem IPI na Venda&quot; na 514" key="{E2118A35-A144-48D9-8D02-E102645E4403}" group="False" parallel="False" enabled="True" testMoniker="{7ED0B204-5090-4FB3-8101-AACD01AB3114}DDVENDAS_T3375" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Calcular o preço de venda ao alterar o preço. Produto com Desconto, Cliente Não Isento IPI, Tributação por Estado e Marcado &quot;Mostrar Preço sem IPI na Venda&quot; na 514" key="{1B9997A1-C9C4-4F9B-A905-10F0B8FD4FCB}" group="False" parallel="False" enabled="True" testMoniker="{1E2E4464-3A17-473C-9A71-E7E7806D8A67}DDVENDAS_T3376" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Calcular o preço de venda ao alterar o preço. Produto com Desconto, Cliente Isento IPI, Tributação por Estado e Desmarcado &quot;Mostrar Preço sem IPI na Venda&quot; na 514" key="{C59FF094-A935-4BBD-9CA4-273B5225C134}" group="False" parallel="False" enabled="True" testMoniker="{90A890BC-F305-44E0-BC98-A7B734A7C2F6}DDVENDAS_T3377" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Calcular o preço de venda ao alterar o preço. Produto com Desconto, Cliente Não Isento IPI, Tributação por Produto e Marcado &quot;Mostrar Preço sem IPI na Venda&quot; na 514" key="{7C8B231B-B036-4C23-B4E8-AE1DC04F1D48}" group="False" parallel="False" enabled="True" testMoniker="{18972818-7338-4321-B9A3-40139607B4C9}DDVENDAS_T3382" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Calcular o preço de venda ao alterar o preço. Produto com Desconto, Cliente Não Isento IPI, Tributação por Produto e Desmarcado &quot;Mostrar Preço sem IPI na Venda&quot; na 514" key="{230DA398-DCF9-4421-9531-BFC0BFB849F0}" group="False" parallel="False" enabled="True" testMoniker="{AF35F5FF-28B5-4BA1-970F-6F14636B1CD6}DDVENDAS_T3383" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Calcular o preço de venda ao alterar o preço. Produto sem Desconto, Cliente Isento IPI, Tributação por Estado e Marcado &quot;Mostrar Preço sem IPI na Venda&quot; na 514" key="{37844FCE-7900-4A62-B537-39D3B4002F2B}" group="False" parallel="False" enabled="True" testMoniker="{AD04F163-3758-468B-A6E2-D07AFECDE0FB}DDVENDAS_T3384" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Calcular o preço de venda ao alterar o preço. Produto sem Desconto, Cliente Isento IPI, Tributação por Estado e Desmarcado &quot;Mostrar Preço sem IPI na Venda&quot; na 514" key="{64576EAA-D746-421C-8365-4FAB173BB0A3}" group="False" parallel="False" enabled="True" testMoniker="{B4A9BD48-7416-4FB4-8512-40AA5F5E2170}DDVENDAS_T3385" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Calcular o preço de venda ao alterar o preço. Produto sem Desconto, Cliente Isento IPI, Tributação por Produto e Marcado &quot;Mostrar Preço sem IPI na Venda&quot; na 514" key="{4A96B7A6-46F7-45CC-A6F0-8870F32E1E2E}" group="False" parallel="False" enabled="True" testMoniker="{C99899F5-A929-4D8C-AE49-C8479123AC70}DDVENDAS_T3386" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Calcular o preço de venda ao alterar o preço. Produto sem Desconto, Cliente Isento IPI, Tributação por Produto e Desmarcado &quot;Mostrar Preço sem IPI na Venda&quot; na 514" key="{A455AB11-DA8E-48E5-B10B-1799F05AFF41}" group="False" parallel="False" enabled="True" testMoniker="{E534E8D8-0637-4A86-82F3-6D3B9EDF019A}DDVENDAS_T3387" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Calcular o preço de venda ao alterar o preço. Produto sem Desconto, Cliente Não Isento IPI, Tributação por Estado e Marcado &quot;Mostrar Preço sem IPI na Venda&quot; na 514" key="{C20434F5-723F-4F5D-AC96-21D9867EC810}" group="False" parallel="False" enabled="True" testMoniker="{3250F684-8A91-43A7-AEA2-CCD36B281A64}DDVENDAS_T3388" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Calcular o preço de venda ao alterar o preço. Produto sem Desconto, Cliente Isento IPI, Tributação por Estado e Desmarcado &quot;Mostrar Preço sem IPI na Venda&quot; na 514" key="{0BB14412-C3E5-416E-ABB4-6EC9F8FC8232}" group="False" parallel="False" enabled="True" testMoniker="{149A9432-C266-4838-A9A8-B759FD8470A0}DDVENDAS_T3389" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Calcular o preço de venda ao alterar o preço. Produto sem Desconto, Cliente Não Isento IPI, Tributação por Produto e Marcado &quot;Mostrar Preço sem IPI na Venda&quot; na 514" key="{260EF7CD-8FC8-46DA-AB09-C4EAA8A19A2B}" group="False" parallel="False" enabled="True" testMoniker="{DC065169-AC66-4E6F-8654-AD622A5FBF3B}DDVENDAS_T3390" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="Calcular o preço de venda ao alterar o preço. Produto sem Desconto, Cliente Não Isento IPI, Tributação por Produto e Desmarcado &quot;Mostrar Preço sem IPI na Venda&quot; na 514" key="{176B8F5D-1303-473F-9786-93BAB75FCE41}" group="False" parallel="False" enabled="True" testMoniker="{219CEECA-7966-4106-AB6E-C838B5AA3A9E}DDVENDAS_T3391" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+								</children>
+							</testItem>
+							<testItem name="Desconto automatico 561" key="{52BEC937-94B3-4AFB-AF21-03B9F1EF7391}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children>
+									<testItem name="ProjectTestItem1" key="{F6B18797-8857-4DE7-989E-42FA1CF1FD3B}" group="False" parallel="False" enabled="True" testMoniker="{36E1CEF4-B690-49C6-BD4B-D562187EC33E}DDVENDAS_T7888" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="ProjectTestItem2" key="{51DBD560-F95B-4A99-92FE-93C7E277CACA}" group="False" parallel="False" enabled="True" testMoniker="{D9D620A3-9DF4-48A2-8B10-4DF13638BF99}DDVENDAS_T7889" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="ProjectTestItem3" key="{63277964-DE7A-4461-8BD0-3FE0570781B4}" group="False" parallel="False" enabled="True" testMoniker="{BF8C5417-48B7-488E-87E1-2C3F3EC4D2E6}DDVENDAS_T7892" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="ProjectTestItem4" key="{FBE55727-A834-419D-9ADA-743E5768CF1C}" group="False" parallel="False" enabled="True" testMoniker="{5B554E9D-DCAF-484E-B098-86ADE4271ED1}DDVENDAS_T7893" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="ProjectTestItem5" key="{633A2B26-093C-4B57-906B-70267589E8C0}" group="False" parallel="False" enabled="True" testMoniker="{92F75EBA-2CCF-445A-8B20-7200376CABDD}DDVENDAS_T7894" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="ProjectTestItem6" key="{3AF06E64-0906-46E4-ADAF-EACADF55F8DE}" group="False" parallel="False" enabled="True" testMoniker="{C8468BB3-C373-4E23-B248-85EB6F0D18B0}DDVENDAS_T7895" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="ProjectTestItem7" key="{F1B980C3-D84E-4D1B-8765-9907409987B0}" group="False" parallel="False" enabled="True" testMoniker="{6F3D89EB-9F73-48E6-B6FB-9623A7A6B203}DDVENDAS_T7896" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="ProjectTestItem8" key="{ED10127A-7AB3-4A6D-9675-CEDF73403130}" group="False" parallel="False" enabled="True" testMoniker="{354CB9CE-9362-4993-8040-E5038E7F040D}DDVENDAS_T7897" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="ProjectTestItem9" key="{1B10890C-9F8B-42CD-9DF1-AA2B94D08D36}" group="False" parallel="False" enabled="True" testMoniker="{130754F6-BA7F-4B62-B4F9-3BA943A95172}DDVENDAS_T7898" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="ProjectTestItem10" key="{148550FE-B5F2-42D7-B26D-E1B895DFF63F}" group="False" parallel="False" enabled="True" testMoniker="{0E464611-C4F1-4891-9EAE-9477309CFFC7}DDVENDAS_T7899" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="ProjectTestItem11" key="{F7CC900E-3029-432F-A5BF-2BE5E4C692CA}" group="False" parallel="False" enabled="True" testMoniker="{105EB119-7423-4496-B54B-909F5647D5CC}DDVENDAS_T7900" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+								</children>
+							</testItem>
+							<testItem name="Modificar o plano de pagamento com flag cartao e derivados" key="{B0AB681D-8A93-4032-9DAD-4987194B5DA6}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<children>
+									<testItem name="336 - Automatizar validação da flag para validar limite de crédito cobrança = D Flag da 522 = S CON_VERIFICALIMCREDCODCOBD = S Cliente com Crédito = N CON_ACEITAVENDABLOQ = S Pedido = B" key="{EC12B26A-EDA5-4DB6-BFEF-11BDCDF92BD0}" group="False" parallel="False" enabled="True" testMoniker="{128EAE68-E443-431E-8385-941A8E57540B}DDVENDAS_T7818" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="336 - Automatizar validação da flag para validar limite de crédito cobrança = D Flag da 522 = S CON_VERIFICALIMCREDCODCOBD = N Cliente com Crédito = N CON_ACEITAVENDABLOQ = S Pedido = L" key="{20D694BD-78E0-4BA8-8746-107ECA98C9CF}" group="False" parallel="False" enabled="True" testMoniker="{00C2F2D8-21B7-41F3-8272-796390C2BC3E}DDVENDAS_T7822" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="336 - Automatizar validação da flag para validar limite de crédito cobrança = D Flag da 522 = S CON_VERIFICALIMCREDCODCOBD = N Cliente com Crédito = N CON_ACEITAVENDABLOQ = S Pedido = B" key="{04B74A38-B86D-4BE7-9AA6-DF82F013EC45}" group="False" parallel="False" enabled="True" testMoniker="{6A296960-A58C-4022-B256-D65B10D011B5}DDVENDAS_T7823" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="336 - Automatizar validação da flag para validar limite de crédito cobrança = D Flag da 522 = S CON_VERIFICALIMCREDCODCOBD = N Cliente com Crédito = N CON_ACEITAVENDABLOQ = S Pedido = M" key="{D3B8B7CC-9AFF-4F22-93FB-09F794E6D797}" group="False" parallel="False" enabled="True" testMoniker="{6F350736-10D6-44DE-838A-409BE8F2F160}DDVENDAS_T7824" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="336 - Automatizar validação da flag para validar limite de crédito cobrança = D Flag da 522 = N CON_VERIFICALIMCREDCODCOBD = N Cliente com Crédito = N CON_ACEITAVENDABLOQ = N Pedido = M" key="{F616D46A-DA82-4988-B2F9-2CE8DDD769AE}" group="False" parallel="False" enabled="True" testMoniker="{21CE27FC-3989-49E9-92D3-13FEAE7F6FC8}DDVENDAS_T7825" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="336 - Automatizar validação da flag para validar limite de crédito cobrança = BK Flag da 522 = S CON_VERIFICALIMCREDCODCOBD = N Cliente com Crédito = N CON_ACEITAVENDABLOQ = S Pedido = L" key="{B4013A90-D37B-49AB-9811-B20BE7DB4979}" group="False" parallel="False" enabled="True" testMoniker="{F00E0E9E-B53E-431C-B2E9-66B0BAB7E700}DDVENDAS_T7833" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="336 - Automatizar validação da flag para validar limite de crédito cobrança = BK Flag da 522 = S CON_VERIFICALIMCREDCODCOBD = N Cliente com Crédito = N CON_ACEITAVENDABLOQ = S Pedido = L" key="{5C9488DD-ED2E-4B18-9856-2116A26334AE}" group="False" parallel="False" enabled="True" testMoniker="{41EA781D-C4EA-48E5-95D1-4D7EDDAD7A63}DDVENDAS_T7834" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="336 - Automatizar validação da flag para validar limite de crédito cobrança = D Flag da 522 = S CON_VERIFICALIMCREDCODCOBD = S Cliente com Crédito = N CON_ACEITAVENDABLOQ = S Pedido = P" key="{A651B3BD-78D7-4698-8041-DE8044734FE1}" group="False" parallel="False" enabled="True" testMoniker="{C051196E-132A-4D62-A4BD-96CFF41C8396}DDVENDAS_T7835" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="336 - Automatizar validação da flag para validar limite de crédito cobrança = D Flag da 522 = S CON_VERIFICALIMCREDCODCOBD = S Cliente com Crédito = N CON_ACEITAVENDABLOQ = N Pedido = L" key="{0F05DB0C-EDA6-4F9E-B4E6-039A3B245D8A}" group="False" parallel="False" enabled="True" testMoniker="{9A4986D1-5332-48AA-B050-DEF9B3845EC5}DDVENDAS_T7836" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="336 - Automatizar validação da flag para validar limite de crédito cobrança = D Flag da 522 = S CON_VERIFICALIMCREDCODCOBD = S Cliente com Crédito = N CON_ACEITAVENDABLOQ = N Pedido = P" key="{35ADEDB3-9572-4A60-92FF-808625959683}" group="False" parallel="False" enabled="True" testMoniker="{CBC22925-A138-427A-9073-E8721C6F46A4}DDVENDAS_T7837" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="336 - Automatizar validação da flag para validar limite de crédito cobrança = D Flag da 522 = N CON_VERIFICALIMCREDCODCOBD = N Cliente com Crédito = N CON_ACEITAVENDABLOQ = S Pedido = M" key="{247E2613-2B3E-4B25-8ACA-314684181365}" group="False" parallel="False" enabled="True" testMoniker="{9C65977E-9FDD-43BB-BB52-88BDC9F7F0CC}DDVENDAS_T7838" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="336 - Automatizar validação da flag para validar limite de crédito cobrança = D Flag da 522 = N CON_VERIFICALIMCREDCODCOBD = N Cliente com Crédito = N CON_ACEITAVENDABLOQ = S Pedido = P" key="{E8B7549C-ECA4-4CE2-B5C3-E63E92C3CF72}" group="False" parallel="False" enabled="True" testMoniker="{42F1A6C3-49A4-46EB-9B5B-32B148762681}DDVENDAS_T7841" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="336 - Automatizar validação da flag para validar limite de crédito cobrança = D Flag da 522 = N CON_VERIFICALIMCREDCODCOBD = N Cliente com Crédito = N CON_ACEITAVENDABLOQ = N Pedido = L" key="{0EFC08F4-4A36-4D85-90EF-E66DD9959A1C}" group="False" parallel="False" enabled="True" testMoniker="{969AC8E2-811E-48F1-9400-DFB3B585BF11}DDVENDAS_T7842" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="336 - Automatizar validação da flag para validar limite de crédito cobrança = D Flag da 522 = N CON_VERIFICALIMCREDCODCOBD = N Cliente com Crédito = N CON_ACEITAVENDABLOQ = N Pedido = P" key="{1449DCAC-6EF1-408F-91B8-7AA3E3766DCB}" group="False" parallel="False" enabled="True" testMoniker="{AE6B66D0-430A-48B2-A858-B0B9D764A6EC}DDVENDAS_T7843" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="336 - Automatizar validação da flag para validar limite de crédito cobrança = D Flag da 522 = S CON_VERIFICALIMCREDCODCOBD = N Cliente com Crédito = S CON_ACEITAVENDABLOQ = S Pedido = L" key="{FF4F3944-F844-4583-AB4F-3A435BB24BC7}" group="False" parallel="False" enabled="True" testMoniker="{F4E310C8-7E74-4621-BBD4-0939CA47B574}DDVENDAS_T7844" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="336 - Automatizar validação da flag para validar limite de crédito cobrança = D Flag da 522 = S CON_VERIFICALIMCREDCODCOBD = N Cliente com Crédito = S CON_ACEITAVENDABLOQ = N Pedido = B" key="{E9561555-6427-4FE8-8FD7-292A2DAA5F0B}" group="False" parallel="False" enabled="True" testMoniker="{A9F6DDB2-3BA7-4BF3-9AE3-C2630294B202}DDVENDAS_T7845" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="336 - Automatizar validação da flag para validar limite de crédito cobrança = D Flag da 522 = S CON_VERIFICALIMCREDCODCOBD = N Cliente com Crédito = S CON_ACEITAVENDABLOQ = N Pedido = M" key="{CBF9CDC9-D36B-42F1-947C-14953AD709F0}" group="False" parallel="False" enabled="True" testMoniker="{1B80BFF8-2273-4E2C-A6F3-40E2F511FEEE}DDVENDAS_T7846" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="336 - Automatizar validação da flag para validar limite de crédito cobrança = D Flag da 522 = S CON_VERIFICALIMCREDCODCOBD = S Cliente com Crédito = N CON_ACEITAVENDABLOQ = N Pedido = L (Liberado)." key="{490A0DCE-D4B7-4FF3-85FF-8C3C4D4A34D9}" group="False" parallel="False" enabled="True" testMoniker="{964E7C30-2D5E-491E-9C21-082296597078}DDVENDAS_T7847" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="336 - Automatizar validação da flag para validar limite de crédito cobrança = D Flag da 522 = N CON_VERIFICALIMCREDCODCOBD = S Cliente com Crédito = N CON_ACEITAVENDABLOQ = N Pedido = M" key="{A723FBDA-2BF9-4E82-8F2B-A8470267D098}" group="False" parallel="False" enabled="True" testMoniker="{2353576A-8464-4D27-99C4-874F19D87F21}DDVENDAS_T7848" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="336 - Automatizar validação da flag para validar limite de crédito cobrança = D Flag da 522 = S CON_VERIFICALIMCREDCODCOBD = N Cliente com Crédito = S CON_ACEITAVENDABLOQ = N Pedido =M" key="{0D727B9D-2E0B-49EA-AB45-9675E1237EB2}" group="False" parallel="False" enabled="True" testMoniker="{9BB5DDEF-7BB5-440D-BD71-6500B9A37A62}DDVENDAS_T7849" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+									<testItem name="336 - Automatizar validação da flag para validar limite de crédito cobrança = D Flag da 522 = S CON_VERIFICALIMCREDCODCOBD = N Cliente com Crédito = S CON_ACEITAVENDABLOQ = S Pedido = B" key="{FF129622-6D8A-423C-AF2E-06C34575681B}" group="False" parallel="False" enabled="True" testMoniker="{EE4053A1-BE87-4329-8EC2-253547CAB3A6}DDVENDAS_T7850" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="CBT" />
+										<children />
+									</testItem>
+								</children>
+							</testItem>
+						</children>
+					</testItem>
+					<testItem name="Fechar_Winthor" key="{82391A74-BFBD-413C-82E6-50278E3573D1}" group="False" parallel="False" enabled="True" testMoniker="{674F9A6E-04B1-4A64-B083-CB4A3C0B5A03}FecharWinThor" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+		</children>
+	</testItems>
+	<variables key="{A7D19277-94CA-4F7D-85B0-877EADFCEE8A}" />
+	<settings key="{97C2F29A-405A-4AE7-BCBB-C461AAB644B5}">
+		<settingsVersion value="14.93" />
+		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
+		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Use all processes" />
+				<row val0="Use only tested applications" />
+				<row val0="Use only selected processes" />
+				<row val0="Ignore selected processes" />
+				<row val0="Ignore all processes" />
+			</data>
+		</setting>
+		<setting name="ApplicationHangingProcessList" type="6" rowIndex="-1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="ApplicationHangingTimeout" type="2" value="30000" />
+		<setting name="AzureDevOps_CollectionID" type="5" value="" />
+		<setting name="AzureDevOps_ProjectID" type="5" value="" />
+		<setting name="AzureDevOps_ServerName" type="5" value="" />
+		<setting name="AzureDevOps_TeamProject" type="5" value="" />
+		<setting name="AzureDevOps_TeamProjectCollection" type="5" value="" />
+		<setting name="AzureDevOps_URL" type="5" value="" />
+		<setting name="CLRBridge_PreferredApartmentModel" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Does not matter" />
+				<row val0="Single-threaded apartment" />
+				<row val0="Multi-threaded apartment" />
+			</data>
+		</setting>
+		<setting name="CLRBridge_PreferredArchitecture" type="6" rowIndex="1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="The same as the operating system" />
+				<row val0="32-bit" />
+				<row val0="64-bit" />
+			</data>
+		</setting>
+		<setting name="CLRBridge_SelectedComponents" type="6" rowIndex="-1" colIndex="1">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="1" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="CountProcessesOfAllUsers" type="1" value="True" />
+		<setting name="DbgServices_Active" type="1" value="True" />
+		<setting name="DbgServices_DepthShown" type="2" value="10" />
+		<setting name="DbgServices_EnableEvents" type="1" value="True" />
+		<setting name="DbgServices_Priority" type="6" rowIndex="3" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="pmLowest" />
+				<row val0="pmLower" />
+				<row val0="pmNormal" />
+				<row val0="pmHigher" />
+				<row val0="pmHighest" />
+			</data>
+		</setting>
+		<setting name="DbgServices_UseExtendedDebugger" type="1" value="True" />
+		<setting name="DraggingDelay" type="2" value="50" />
+		<setting name="General_CurrentImageFormat" type="5" value="126_0_0_0_97_113_115_111_1_0_0_0_4_0_0_0_114_0_111_0_111_0_116_0_1_0_0_0_9_0_0_0_102_0_111_0_114_0_109_0_97_0_116_0_107_0_101_0_121_0_1_0_0_0_38_0_0_0_123_0_66_0_65_0_55_0_52_0_53_0_49_0_54_0_57_0_45_0_70_0_51_0_52_0_68_0_45_0_52_0_55_0_49_0_48_0_45_0_66_0_51_0_55_0_70_0_45_0_68_0_53_0_69_0_70_0_69_0_56_0_65_0_53_0_49_0_51_0_51_0_57_0_125_0_1_0_0_0_16_0_0_0_112_0_110_0_103_0_99_0_111_0_110_0_102_0_105_0_103_0_117_0_114_0_97_0_116_0_105_0_111_0_110_0_2_0_0_0_16_0_0_0_99_0_111_0_109_0_112_0_114_0_101_0_115_0_115_0_105_0_111_0_110_0_108_0_101_0_118_0_101_0_108_0_0_0_0_0_4_0_0_0_10_0_0_0_105_0_110_0_116_0_101_0_114_0_108_0_97_0_99_0_101_0_100_0_5_0_0_0_0_0_0_0_0_0_" />
+		<setting name="General_DisableDWMBeforeCapturingImage" type="1" value="True" />
+		<setting name="General_ImageFormat" type="5" value="Format: PNG; Compression level: 4" />
+		<setting name="General_ObjectTreeModel" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Tree" />
+				<row val0="Flat" />
+			</data>
+		</setting>
+		<setting name="General_ProjectLogLocation" type="5" value="Log" />
+		<setting name="General_RepaintWindowBeforeCapturingImage" type="1" value="True" />
+		<setting name="General_UnitsEncoding" type="6" rowIndex="1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="UTF-16" />
+				<row val0="UTF-8" />
+				<row val0="ANSI" />
+				<row val0="Auto" />
+			</data>
+		</setting>
+		<setting name="Gherkin_ExamplesAreTestCases" type="1" value="False" />
+		<setting name="Gherkin_StopScenarioOutlineIfExampleFails" type="1" value="False" />
+		<setting name="HipTest_ProjectID" type="2" value="-1" />
+		<setting name="HipTest_ProjectName" type="5" value="The current project is not bound to CucumberStudio." />
+		<setting name="HipTest_SaveResults" type="1" value="True" />
+		<setting name="HipTest_SynchronizeBeforeRun" type="1" value="True" />
+		<setting name="HipTest_SynchronizeOnOpening" type="1" value="True" />
+		<setting name="HipTest_SynchronizeTestRun" type="1" value="False" />
+		<setting name="HipTest_TestRunID" type="5" value="" />
+		<setting name="HipTest_TestRunName" type="5" value="[Test run created last]" />
+		<setting name="JavaBridge_Classes" type="6" rowIndex="-1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="JavaBridge_ClassPaths" type="6" rowIndex="-1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="JavaFXOpenApp_DoNotRecognizeJavaFXStageAsAWTComponent" type="1" value="True" />
+		<setting name="JavaFXOpenApp_ExposedCustomNodes" type="6" rowIndex="-1" colIndex="2">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="JavaFXOpenApp_NodeByClassNameFilters" type="6" rowIndex="8" colIndex="2">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="1" enabled="True" />
+			</columns>
+			<data>
+				<row val0="False" val1="*" val2="False" />
+				<row val0="True" val1="javafx.scene.SubScene" val2="True" />
+				<row val0="True" val1="javafx.scene.control.Control" val2="True" />
+				<row val0="True" val1="javafx.scene.web.WebView" val2="False" />
+				<row val0="False" val1="javafx.scene.canvas.Canvas" val2="True" />
+				<row val0="False" val1="javafx.scene.image.ImageView" val2="True" />
+				<row val0="False" val1="javafx.scene.media.MediaView" val2="True" />
+				<row val0="True" val1="com.sun.javafx.scene.control.skin.ContextMenuContent$MenuItemContainer" val2="True" />
+				<row val0="True" val1="com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer" val2="True" />
+			</data>
+		</setting>
+		<setting name="JavaOpenApp_DoNotRecognizeChildSWTAsParent" type="1" value="False" />
+		<setting name="KeyPressingDelay" type="2" value="50" />
+		<setting name="MouseMovementDelay" type="2" value="0" />
+		<setting name="ObjectMapping_Objects" type="6" rowIndex="-1" colIndex="3">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="OpenApps_ActivateSystemProcesses" type="1" value="False" />
+		<setting name="OpenApps_DbgAgent_AdvancedExceptionHandling" type="1" value="True" />
+		<setting name="OpenApps_DbgAgent_CombineClassDefinitions" type="1" value="False" />
+		<setting name="OpenApps_DbgAgent_EnableDebugAgent" type="1" value="True" />
+		<setting name="OpenApps_DbgAgent_StringLengthLimit" type="2" value="1024" />
+		<setting name="OpenApps_DbgAgent_UseStaticLibs" type="1" value="True" />
+		<setting name="OpenApps_EnableMultipleNamesForObjects" type="1" value="False" />
+		<setting name="OpenApps_MethodInvokeTimeout" type="2" value="3000" />
+		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="11" colIndex="1">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="False" val1="*" />
+				<row val0="True" val1="MsoCommandBar*" />
+				<row val0="True" val1="_Ww*" />
+				<row val0="True" val1="OpusApp" />
+				<row val0="True" val1="Vfp*" />
+				<row val0="True" val1="bosa_sdm_Microsoft Word *" />
+				<row val0="False" val1="Internet Explorer_Server" />
+				<row val0="True" val1="XTPToolBar" />
+				<row val0="True" val1="XTPDockingPaneTabbedContainer" />
+				<row val0="True" val1="XTPTaskPanel" />
+				<row val0="True" val1="XTPReport" />
+				<row val0="True" val1="XTPPopupBar" />
+			</data>
+		</setting>
+		<setting name="OpenApps_MSAA_TreeModel" type="1" value="False" />
+		<setting name="OpenApps_PriorityOfObjects" type="6" rowIndex="14" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="NativeVBObject" />
+				<row val0="NativeDelphiObject" />
+				<row val0="NativeTextObject" />
+				<row val0="NativeJavaObject" />
+				<row val0="NativeClrObject" />
+				<row val0="NativeCPPObject" />
+				<row val0="NativeJavaFXObject" />
+				<row val0="NativeQtObject" />
+				<row val0="NativeUIAObject" />
+				<row val0="NativeMSAA" />
+				<row val0="NativeSlObject" />
+				<row val0="NativeWebObject" />
+				<row val0="NativeChromeObject" />
+				<row val0="NativeFirefoxObject" />
+				<row val0="NativeSAPObject" />
+			</data>
+		</setting>
+		<setting name="OpenApps_ProcessFilter_ProcessFilterMode" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Use all processes" />
+				<row val0="Use only tested applications" />
+				<row val0="Use only selected processes" />
+				<row val0="Ignore selected processes" />
+			</data>
+		</setting>
+		<setting name="OpenApps_ProcessFilter_ProcessList" type="6" rowIndex="-1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="OpenApps_UIA_ListOfAcceptedWindows" type="6" rowIndex="2" colIndex="1">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="False" val1="*" />
+				<row val0="True" val1="DirectUIHWND" />
+				<row val0="True" val1="Windows.UI.Core.CoreWindow" />
+			</data>
+		</setting>
+		<setting name="OpenApps_UseNativeObjectNames" type="1" value="True" />
+		<setting name="OpenApps_WPF_CompositeControls" type="6" rowIndex="-1" colIndex="2">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="OpenApps_WPF_ItemsTemplates" type="6" rowIndex="-1" colIndex="2">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="OpenApps_WPF_SimplifiedWPFObjectTree" type="1" value="False" />
+		<setting name="PerformanceCounters_List" type="6" rowIndex="-1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="1" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="Playback_ErrHandling_OnError" type="6" rowIndex="0" colIndex="1">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Continue running" val1="0" />
+				<row val0="Stop project" val1="1" />
+				<row val0="Stop current item" val1="2" />
+				<row val0="Stop and rerun current item" val1="4" />
+			</data>
+		</setting>
+		<setting name="Playback_ErrHandling_OnObjectRecognitionError" type="6" rowIndex="0" colIndex="1">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Continue running" val1="0" />
+				<row val0="Stop project" val1="1" />
+				<row val0="Stop current item" val1="2" />
+			</data>
+		</setting>
+		<setting name="Playback_ErrHandling_OnWarning" type="6" rowIndex="0" colIndex="1">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Continue running" val1="0" />
+				<row val0="Stop project" val1="1" />
+				<row val0="Stop current item" val1="2" />
+			</data>
+		</setting>
+		<setting name="Playback_ErrHandling_ShowErrorDialog" type="1" value="True" />
+		<setting name="Playback_Log_AutosaveInterval" type="2" value="0" />
+		<setting name="Playback_Log_EventCount" type="2" value="0" />
+		<setting name="Playback_Log_PostImageOnError" type="1" value="True" />
+		<setting name="Playback_ObjectSearchStrategy" type="6" rowIndex="1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Depth-first" />
+				<row val0="Breadth-first" />
+			</data>
+		</setting>
+		<setting name="Playback_OverlappingWindow_IgnoreOverlappingWindow" type="1" value="False" />
+		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="8500" />
+		<setting name="Playback_Runtime_DelayBetweenEvents" type="2" value="500" />
+		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
+		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="False" />
+		<setting name="Playback_Runtime_UseCaseSensitiveParameters" type="1" value="False" />
+		<setting name="Playback_StopOnError" type="1" value="False" />
+		<setting name="Playback_StopOnObjectRecognitionError" type="1" value="False" />
+		<setting name="Playback_StopOnWarning" type="1" value="False" />
+		<setting name="Playback_TestItemMaxReRunCount" type="2" value="1" />
+		<setting name="Playback_UnexpectedWndHandling_ClickOnFocusedControl" type="1" value="True" />
+		<setting name="Playback_UnexpectedWndHandling_IgnoreUnexpectedWindow" type="1" value="False" />
+		<setting name="Playback_UnexpectedWndHandling_PressEnter" type="1" value="True" />
+		<setting name="Playback_UnexpectedWndHandling_PressEsc" type="1" value="True" />
+		<setting name="Playback_UnexpectedWndHandling_SendCloseCommand" type="1" value="True" />
+		<setting name="Playback_UnexpectedWndHandling_StopExecution" type="1" value="False" />
+		<setting name="Recording_TestedAppsOnly" type="1" value="False" />
+		<setting name="RecreateActiveXObjects" type="1" value="False" />
+		<setting name="RunStandaloneServer" type="1" value="False" />
+		<setting name="StandaloneServerAdditionalOptions" type="5" value="" />
+		<setting name="StandaloneServerPort" type="2" value="4444" />
+		<setting name="TextRecognizer_AcceptedProcesses" type="6" rowIndex="-1" colIndex="1">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="TextRecognizer_AcceptedWindows" type="6" rowIndex="-1" colIndex="1">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="Visualizer_AutoUpdate" type="1" value="False" />
+		<setting name="Visualizer_AutoUpdateMode" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Update existing frames and capture new frames, if needed" />
+				<row val0="Update existing frames only" />
+			</data>
+		</setting>
+		<setting name="Visualizer_BindToSCC" type="1" value="True" />
+		<setting name="Visualizer_CaptureStyle" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Top-level parent" />
+				<row val0="Desktop" />
+			</data>
+		</setting>
+		<setting name="Visualizer_DeleteAll" type="1" value="True" />
+		<setting name="Visualizer_ParallelPlaybackCapture" type="1" value="False" />
+		<setting name="Visualizer_PlaybackCaptureProperties" type="1" value="False" />
+		<setting name="Visualizer_PlaybackCollectMode" type="6" rowIndex="1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Off" />
+				<row val0="Capture images" />
+			</data>
+		</setting>
+		<setting name="Visualizer_RecordingCaptureProperties" type="1" value="False" />
+		<setting name="Visualizer_RecordingCollectMode" type="6" rowIndex="1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Off" />
+				<row val0="Capture images" />
+			</data>
+		</setting>
+		<setting name="Visualizer_UseDuringPlayback" type="1" value="True" />
+		<setting name="Visualizer_UseDuringRecording" type="1" value="True" />
+		<setting name="ZFJ_Cycle" type="5" value="" />
+		<setting name="ZFJ_ExecutionStatus_Failed" type="5" value="FAIL" />
+		<setting name="ZFJ_ExecutionStatus_Passed" type="5" value="PASS" />
+		<setting name="ZFJ_ExecutionStatus_Wip" type="5" value="WIP" />
+		<setting name="ZFJ_ExecutionStepStatus_Unexecuted" type="5" value="UNEXECUTED" />
+		<setting name="ZFJ_InstanceType" type="6" rowIndex="1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Zephyr for Jira Server" />
+				<row val0="Zephyr for Jira Cloud" />
+			</data>
+		</setting>
+		<setting name="ZFJ_JiraLogin" type="5" value="" />
+		<setting name="ZFJ_JiraPassword" type="5" value="" />
+		<setting name="ZFJ_JiraProject" type="5" value="" />
+		<setting name="ZFJ_JiraUrl" type="5" value="" />
+		<setting name="ZFJ_TestIssueTypeName" type="5" value="Test" />
+		<setting name="ZFJ_Version" type="5" value="" />
+		<setting name="ZFJ_ZephyrAccessKey" type="5" value="" />
+		<setting name="ZFJ_ZephyrSecretKey" type="5" value="" />
+		<setting name="{0787AA13-4C49-418A-A688-B23BE9F226F4}" type="1" value="False" />
+		<setting name="{08E45C74-68E0-4E05-913F-298DE287E8FF}" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="ID" />
+				<row val0="Name" />
+			</data>
+		</setting>
+		<setting name="{1FEF5DC6-5F46-4CCA-A31E-7C325204900B}" type="6" rowIndex="32" colIndex="9">
+			<columns>
+				<column type="2" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data>
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Yahoo! UI library" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="0" val1="-1" val2="False" val3="True" val4="Do not use IDs starting with &quot;yui-gen&quot;" val5="Wildcard" val6="yui-gen*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="0" val1="-1" val2="False" val3="True" val4="Do not use IDs containing &quot;yui_3_&quot;" val5="Wildcard" val6="*yui_3_*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="jQuery UI library" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="3" val1="-1" val2="False" val3="True" val4="Do not use IDs starting with &quot;ui-id-&quot;" val5="Wildcard" val6="ui-id-*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Dojo toolkit" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="5" val1="-1" val2="False" val3="True" val4="Do not use IDs starting with &quot;dijit_&quot;" val5="Wildcard" val6="dijit_*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Other" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="-1" val2="False" val3="True" val4="Do not use IDs containing GUID" val5="RegExp" val6="\h+-\h+-\h+-\h+-\h+" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="-1" val2="False" val3="True" val4="Remove leading characters from IDs like &quot;c1114509959-searchform&quot;" val5="RegExp" val6="^[A-Za-z](\d\d\d\d\d+){[A-Za-z-]*}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="-1" val2="False" val3="True" val4="Remove trailing digits from IDs like &quot;unique-123456&quot;" val5="RegExp" val6="^{[A-Za-z-]+}(\d\d\d\d\d+)$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="-1" val2="False" val3="True" val4="Remove digits from IDs like &quot;some_unique_123456_text&quot;" val5="RegExp" val6="^{[A-Za-z_]+}_(\d\d\d\d\d+){[A-Za-z_]*}$" val7="$1$2" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="-1" val2="False" val3="True" val4="Remove digits from IDs like &quot;some_unique123456_text&quot;" val5="RegExp" val6="^{[A-Za-z_]+}(\d\d\d\d\d+){[A-Za-z_]*}$" val7="$1$2" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="ASP.NET" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="13" val1="-1" val2="False" val3="True" val4="Do not use IDs ending with a string like &quot;ctl00&quot;" val5="RegExp" val6="^(.*[-_$])?(ctl[0-9]+)$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="13" val1="-1" val2="False" val3="True" val4="Remove GUIDs and ctl00-like prefixes from Sharepoint IDs" val5="RegExp" val6="(.+?_(\h+_\h+_\h+_\h+_\h+))+(.*ctr?l[0-9]+)?[_$]?{.*}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="13" val1="-1" val2="False" val3="True" val4="For IDs containing a string like &quot;ctl00_&quot;, leave only symbols after this string" val5="RegExp" val6=".*(ctl[0-9]+[-_$]+){.*}" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Sencha ExtJS" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="17" val1="-1" val2="False" val3="True" val4="Do not use IDs containing &quot;ext-gen&quot;" val5="RegExp" val6="^(.*-)?ext-gen" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="17" val1="-1" val2="False" val3="True" val4="Do not use IDs containing &quot;ext-comp&quot;" val5="RegExp" val6="^(.*-)?ext-comp" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="17" val1="-1" val2="False" val3="True" val4="Do not use IDs starting with &quot;extdd-&quot;" val5="Wildcard" val6="extdd-*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="17" val1="-1" val2="False" val3="True" val4="Remove digits from IDs like &quot;treepicker-1038&quot; or &quot;treepicker-1038-inputEl&quot;" val5="RegExp" val6="^{[A-Za-z-]+}-{\d\d\d\d+}{.*}$" val7="$1$3" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Sencha Touch" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="22" val1="-1" val2="False" val3="True" val4="Remove dynamic parts of Sencha Touch IDs" val5="RegExp" val6="^ext-{.*}-\d+$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="JavaServer Faces" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="24" val1="-1" val2="False" val3="True" val4="Do not use IDs like &quot;_t14&quot;" val5="RegExp" val6="^{_t}{[0-9]+}$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="24" val1="-1" val2="False" val3="True" val4="Do not use IDs like &quot;j_id23&quot; or &quot;j_idt23&quot;" val5="RegExp" val6="^{j_idt?}{[0-9]+}$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="24" val1="-1" val2="False" val3="True" val4="Remove all but the last part of IDs like &quot;frm:menuLinks:0:link&quot;" val5="RegExp" val6="(.+):{[^0-9]+}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="24" val1="-1" val2="False" val3="True" val4="Do not use IDs like &quot;frm:menuLinks:3:link&quot;" val5="RegExp" val6="(.+):(.*)" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Google Web Toolkit" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="29" val1="-1" val2="False" val3="True" val4="Remove all but the last part of IDs like &quot;gwt-uid-370_runButton&quot;" val5="RegExp" val6="^(gwt-uid-[0-9]+)(_{.*})?$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="29" val1="-1" val2="False" val3="True" val4="Remove dynamic parts of Sencha GXT IDs" val5="RegExp" val6="^(x-((widget)|(auto))-.*[0-9]+)([-_]{.*})?$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Custom" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+			</data>
+		</setting>
+		<setting name="{323FACDA-38E8-4C1B-B22C-99E0AB90EADC}" type="5" value="" />
+		<setting name="{33C0A94E-7F58-493C-BCCC-91685352F9B4}" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="*" />
+			</data>
+		</setting>
+		<setting name="{40B91E08-D498-460E-B175-0E9FB75CB271}" type="1" value="True" />
+		<setting name="{542B9FA0-35EA-4C4D-BF0B-661005CB94E9}" type="2" value="60000" />
+		<setting name="{5B70169C-3929-4B5F-BC46-0FD984BECF45}" type="1" value="True" />
+		<setting name="{6F8262CE-7343-484E-81B4-8F04EA5533B0}" type="1" value="False" />
+		<setting name="{74CC9F3B-2E52-4B16-844A-9EE33532B51E}" type="1" value="False" />
+		<setting name="{7A29E7FF-985C-4095-9EEC-261B86F6AB0F}" type="1" value="True" />
+		<setting name="{7A4EE551-25FE-4C1A-8967-FA26B3C27AD7}" type="6" rowIndex="11" colIndex="9">
+			<columns>
+				<column type="2" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="4" enabled="True" />
+			</columns>
+			<data>
+				<row val0="-1" val1="-1" val2="False" val3="True" val4="False" val5="Apple iPad" val6="Mozilla/5.0 (iPad; CPU OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1" val7="1024" val8="768" val9="2" />
+				<row val0="-1" val1="-1" val2="False" val3="True" val4="False" val5="Apple iPhone 4" val6="Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1" val7="320" val8="480" val9="2" />
+				<row val0="-1" val1="-1" val2="False" val3="True" val4="False" val5="Apple iPhone 5" val6="Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1" val7="320" val8="568" val9="2" />
+				<row val0="-1" val1="-1" val2="False" val3="True" val4="False" val5="Apple iPhone 6" val6="Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1" val7="375" val8="667" val9="2" />
+				<row val0="-1" val1="-1" val2="False" val3="True" val4="False" val5="Apple iPhone 6 Plus" val6="Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1" val7="414" val8="736" val9="3" />
+				<row val0="-1" val1="-1" val2="False" val3="True" val4="False" val5="Blackberry Z30" val6="Mozilla/5.0 (BB10; Touch) AppleWebKit/537.10+ (KHTML, like Gecko) Version/10.0.9.2372 Mobile Safari/537.10+" val7="360" val8="640" val9="2" />
+				<row val0="-1" val1="-1" val2="False" val3="True" val4="False" val5="Google Nexus 6" val6="Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.23 Mobile Safari/537.36" val7="412" val8="732" val9="3.5" />
+				<row val0="-1" val1="-1" val2="False" val3="True" val4="False" val5="Google Nexus 7" val6="Mozilla/5.0 (Linux; Android 4.3; Nexus 7 Build/JSS15Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.23 Safari/537.36" val7="960" val8="600" val9="2" />
+				<row val0="-1" val1="-1" val2="False" val3="True" val4="False" val5="Google Nexus 10" val6="Mozilla/5.0 (Linux; Android 4.3; Nexus 10 Build/JSS15Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.23 Safari/537.36" val7="1280" val8="800" val9="2" />
+				<row val0="-1" val1="-1" val2="False" val3="True" val4="False" val5="Nokia Lumia 520" val6="Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 520)" val7="320" val8="533" val9="1.39999997615814" />
+				<row val0="-1" val1="-1" val2="False" val3="True" val4="False" val5="Samsung Galaxy Note 3" val6="Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30" val7="360" val8="640" val9="3" />
+				<row val0="-1" val1="-1" val2="False" val3="True" val4="False" val5="Samsung Galaxy S5" val6="Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.23 Mobile Safari/537.36" val7="360" val8="640" val9="2" />
+			</data>
+		</setting>
+		<setting name="{829BC6CA-56D1-46A4-89B9-E15802964005}" type="1" value="False" />
+		<setting name="{93E8CC00-6DC0-4557-8CF3-A360E1A49969}" type="6" rowIndex="0" colIndex="1">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="True" val1="data-test-id" />
+				<row val0="True" val1="data-testid" />
+			</data>
+		</setting>
+		<setting name="{95E3327A-7433-4A00-9257-6E9A4B4F1795}" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="ID" />
+				<row val0="Name" />
+			</data>
+		</setting>
+		<setting name="{ABE9C069-5D2D-4FBA-B1B0-FF96C0F0B1F6}" type="6" rowIndex="3" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="DOM" />
+				<row val0="Tag" />
+				<row val0="Hybrid" />
+				<row val0="Tree" />
+			</data>
+		</setting>
+		<setting name="{ACFF4EF1-2D8D-4A5B-A55F-6F64DF82662B}" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="None" />
+				<row val0="Apple iPad" />
+				<row val0="Apple iPhone 4" />
+				<row val0="Apple iPhone 5" />
+				<row val0="Apple iPhone 6" />
+				<row val0="Apple iPhone 6 Plus" />
+				<row val0="Blackberry Z30" />
+				<row val0="Google Nexus 6" />
+				<row val0="Google Nexus 7" />
+				<row val0="Google Nexus 10" />
+				<row val0="Nokia Lumia 520" />
+				<row val0="Samsung Galaxy Note 3" />
+				<row val0="Samsung Galaxy S5" />
+			</data>
+		</setting>
+		<setting name="{BC2725AB-C90D-4761-BEB2-ABACE30FE554}" type="1" value="True" />
+		<setting name="{D852BFD9-D446-4748-906F-1FA580D41304}" type="6" rowIndex="0" colIndex="1">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="True" val1="%PRODUCT_LOCATION%\Open Apps\Flex\FlashInjector.swf" />
+			</data>
+		</setting>
+		<setting name="{DB42CEAB-BFC4-40DB-9F48-9197D35FB5E2}" type="6" rowIndex="32" colIndex="9">
+			<columns>
+				<column type="2" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data>
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Yahoo! UI library" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="0" val1="-1" val2="False" val3="True" val4="Do not use IDs starting with &quot;yui-gen&quot;" val5="Wildcard" val6="yui-gen*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="0" val1="-1" val2="False" val3="True" val4="Do not use IDs containing &quot;yui_3_&quot;" val5="Wildcard" val6="*yui_3_*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="jQuery UI library" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="3" val1="-1" val2="False" val3="True" val4="Do not use IDs starting with &quot;ui-id-&quot;" val5="Wildcard" val6="ui-id-*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Dojo toolkit" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="5" val1="-1" val2="False" val3="True" val4="Do not use IDs starting with &quot;dijit_&quot;" val5="Wildcard" val6="dijit_*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Other" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="-1" val2="False" val3="True" val4="Do not use IDs containing GUID" val5="RegExp" val6="\h+-\h+-\h+-\h+-\h+" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="-1" val2="False" val3="True" val4="Remove leading characters from IDs like &quot;c1114509959-searchform&quot;" val5="RegExp" val6="^[A-Za-z](\d\d\d\d\d+){[A-Za-z-]*}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="-1" val2="False" val3="True" val4="Remove trailing digits from IDs like &quot;unique-123456&quot;" val5="RegExp" val6="^{[A-Za-z-]+}(\d\d\d\d\d+)$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="-1" val2="False" val3="True" val4="Remove digits from IDs like &quot;some_unique_123456_text&quot;" val5="RegExp" val6="^{[A-Za-z_]+}_(\d\d\d\d\d+){[A-Za-z_]*}$" val7="$1$2" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="7" val1="-1" val2="False" val3="True" val4="Remove digits from IDs like &quot;some_unique123456_text&quot;" val5="RegExp" val6="^{[A-Za-z_]+}(\d\d\d\d\d+){[A-Za-z_]*}$" val7="$1$2" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="ASP.NET" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="13" val1="-1" val2="False" val3="True" val4="Do not use IDs ending with a string like &quot;ctl00&quot;" val5="RegExp" val6="^(.*[-_$])?(ctl[0-9]+)$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="13" val1="-1" val2="False" val3="True" val4="Remove GUIDs and ctl00-like prefixes from Sharepoint IDs" val5="RegExp" val6="(.+?_(\h+_\h+_\h+_\h+_\h+))+(.*ctr?l[0-9]+)?[_$]?{.*}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="13" val1="-1" val2="False" val3="True" val4="Remove all but the last part of IDs like &quot;ctl00_MainContent_username&quot;" val5="RegExp" val6=".*(ctl[0-9]+)(.*)[-_$]+{[^_0-9]+}{[_0-9]*}$" val7="$1$2" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Sencha ExtJS" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="17" val1="-1" val2="False" val3="True" val4="Do not use IDs containing &quot;ext-gen&quot;" val5="RegExp" val6="^(.*-)?ext-gen" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="17" val1="-1" val2="False" val3="True" val4="Do not use IDs containing &quot;ext-comp&quot;" val5="RegExp" val6="^(.*-)?ext-comp" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="17" val1="-1" val2="False" val3="True" val4="Do not use IDs starting with &quot;extdd-&quot;" val5="Wildcard" val6="extdd-*" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="17" val1="-1" val2="False" val3="True" val4="Remove digits from IDs like &quot;treepicker-1038&quot; or &quot;treepicker-1038-inputEl&quot;" val5="RegExp" val6="^{[A-Za-z-]+}-{\d\d\d\d+}{.*}$" val7="$1$3" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Sencha Touch" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="22" val1="-1" val2="False" val3="True" val4="Remove dynamic parts of Sencha Touch IDs" val5="RegExp" val6="^ext-{.*}-\d+$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="JavaServer Faces" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="24" val1="-1" val2="False" val3="True" val4="Do not use IDs like &quot;_t14&quot;" val5="RegExp" val6="^{_t}{[0-9]+}$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="24" val1="-1" val2="False" val3="True" val4="Do not use IDs like &quot;j_id23&quot; or &quot;j_idt23&quot;" val5="RegExp" val6="^{j_idt?}{[0-9]+}$" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="24" val1="-1" val2="False" val3="True" val4="Remove all but the last part of IDs like &quot;frm:menuLinks:0:link&quot;" val5="RegExp" val6="(.+):{[^0-9]+}$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="24" val1="-1" val2="False" val3="True" val4="Do not use IDs like &quot;frm:menuLinks:3:link&quot;" val5="RegExp" val6="(.+):(.*)" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Google Web Toolkit" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="29" val1="-1" val2="False" val3="True" val4="Remove all but the last part of IDs like &quot;gwt-uid-370_runButton&quot;" val5="RegExp" val6="^(gwt-uid-[0-9]+)(_{.*})?$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="29" val1="-1" val2="False" val3="True" val4="Remove dynamic parts of Sencha GXT IDs" val5="RegExp" val6="^(x-((widget)|(auto))-.*[0-9]+)([-_]{.*})?$" val7="$1" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+				<row val0="-1" val1="-1" val2="True" val3="True" val4="Custom" val5="" val6="" val7="" val8="Wildcard&#13;&#10;RegExp" val9="0" />
+			</data>
+		</setting>
+		<setting name="{E47A2931-EE5D-42D2-8CB7-3796DE597AA1}" type="5" value="" />
+	</settings>
+	<analysis key="{CBFCBA3F-154D-460E-9368-3F51F48E33F3}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+	<issueTracking key="{C6130FF4-4A1A-4E73-B7AC-B36A186D53FF}">
+		<Templates>
+			<Template Id="{1EB17ADF-E4EB-404D-97DC-AD758A1E8C1D}" ConnectionId="{00000000-0000-0000-0000-000000000000}" Description="This template is used by TestComplete&apos;s Log subsystem to post test results to an issue-tracking system. You can also use it at your desire." Name="CreateWorkItem" IsSystem="True" ItemTypeName="" ProjectName="" IsEditing="False" ItemId="">
+				<Fields>
+					<Field ItemId="{F00C224A-D210-47CD-B944-1B17B4D32A5F}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Subject" />
+					<Field ItemId="{80E48F7E-98C9-41DE-890D-923D04F82A50}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Description" />
+				</Fields>
+			</Template>
+		</Templates>
+	</issueTracking>
+</Root>
